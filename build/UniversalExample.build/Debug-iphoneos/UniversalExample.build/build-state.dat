@@ -1,0 +1,947 @@
+TUniversalExample
+v7
+r0
+t302494498.961128
+cCheck dependencies
+cCpResource build/Debug-iphoneos/UniversalExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/Info.plist" UniversalExample-Info.plist
+cCompileXIB "/Users/cwiles/Desktop/Universal App/MainWindow.xib"
+cCompileXIB "/Users/cwiles/Desktop/Universal App/RootViewController.xib"
+cCompileXIB "/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib"
+cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/main.o "/Users/cwiles/Desktop/Universal App/main.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/Model.o "/Users/cwiles/Desktop/Universal App/Classes/Model.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPad.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPhone.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/main.o "/Users/cwiles/Desktop/Universal App/main.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample" normal armv6
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/Model.o "/Users/cwiles/Desktop/Universal App/Classes/Model.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPad.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPhone.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample" normal armv7
+cCreateUniversalBinary "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app.dSYM" "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample"
+cProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision"
+cTouch "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent"
+cCodeSign "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C3F67160000000000000110
+t1279223574
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.h
+c000000004C51F63F00000000000001E6
+t1280439871
+s486
+i<UIKit/UIKit.h>
+i"Model.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m
+c000000004C57365C00000000000009D6
+t1280783964
+s2518
+i"DetailViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.h
+c000000004C57236A0000000000000201
+t1280779114
+s513
+i<Foundation/Foundation.h>
+i"DetailViewController.h"
+i"SubDetailViewController_iPad.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m
+c000000004C57373300000000000009CD
+t1280784179
+s2509
+i"DetailViewController_Pad.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.h
+c000000004C57237A0000000000000154
+t1280779130
+s340
+i<Foundation/Foundation.h>
+i"DetailViewController.h"
+i"SubDetailViewController_iPhone.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m
+c000000004C57371D0000000000000416
+t1280784157
+s1046
+i"DetailViewController_Phone.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/Model.h
+c000000004C51F0D00000000000000171
+t1280438480
+s369
+i<Foundation/Foundation.h>
+
+N/Users/cwiles/Desktop/Universal App/Classes/Model.m
+c000000004C573751000000000000048D
+t1280784209
+s1165
+i"Model.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController.h
+c000000004C51F6D30000000000000105
+t1280440019
+s261
+i<UIKit/UIKit.h>
+i"Model.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m
+c000000004C57363C00000000000005C2
+t1280783932
+s1474
+i"RootViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.h
+c000000004C5313020000000000000172
+t1280512770
+s370
+i<Foundation/Foundation.h>
+i"UniversalExampleAppDelegate_Pad.h"
+i"RootViewController.h"
+i"DetailViewController_Pad.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m
+c000000004C57368800000000000003BC
+t1280784008
+s956
+i"RootViewController_Pad.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.h
+c000000004C51C7AE000000000000014C
+t1280427950
+s332
+i<Foundation/Foundation.h>
+i"RootViewController.h"
+i"DetailViewController_Phone.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m
+c000000004C5736160000000000000329
+t1280783894
+s809
+i"RootViewController_Phone.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.h
+c000000004C57211900000000000001B9
+t1280778521
+s441
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m
+c000000004C57342600000000000007CF
+t1280783398
+s1999
+i"SubDetailViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.h
+c000000004C571F080000000000000134
+t1280777992
+s308
+i<UIKit/UIKit.h>
+i"SubDetailViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m
+c000000004C57373D00000000000004C3
+t1280784189
+s1219
+i"SubDetailViewController_iPad.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.h
+c000000004C571F2E0000000000000138
+t1280778030
+s312
+i<UIKit/UIKit.h>
+i"SubDetailViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m
+c000000004C5737280000000000000314
+t1280784168
+s788
+i"SubDetailViewController_iPhone.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.h
+c000000004C51BFAB00000000000001DC
+t1280425899
+s476
+i<Foundation/Foundation.h>
+
+N/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m
+c000000004C51BE540000000000000A11
+t1280425556
+s2577
+i"UniversalExampleAppDelegate_Pad.h"
+i"RootViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.h
+c000000004C51BDCE00000000000001E4
+t1280425422
+s484
+i<Foundation/Foundation.h>
+
+N/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m
+c000000004C51CB2B0000000000000A17
+t1280428843
+s2583
+i"UniversalExampleAppDelegate_Phone.h"
+i"RootViewController.h"
+
+N/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib
+c000000004C57269400000000000075BB
+t1280779924
+s30139
+
+N/Users/cwiles/Desktop/Universal App/MainWindow.xib
+c000000004C51BF070000000000006475
+t1280425735
+s25717
+
+N/Users/cwiles/Desktop/Universal App/RootViewController.xib
+c000000004C5721880000000000001CC8
+t1280778632
+s7368
+
+N/Users/cwiles/Desktop/Universal App/UniversalExample_Prefix.pch
+c000000004C518BED0000000000000152
+t1280412653
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app
+t1280801698
+s408
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app.dSYM
+t1280801698
+s102
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/Info.plist
+t1280801685
+s1406
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/MainWindow-iPad.nib
+t1280801693
+s2063
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/MainWindow.nib
+t1280801693
+s1700
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/PkgInfo
+t1280801685
+s8
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/ResourceRules.plist
+t1280801685
+s485
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/RootViewController.nib
+t1280801693
+s979
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample
+t1280801698
+s119444
+
+N/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision
+t1280801698
+s7894
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController.o
+t1280801696
+s47620
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Pad.o
+t1280801696
+s46948
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Phone.o
+t1280801696
+s34800
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/Model.o
+t1280801696
+s9236
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController.o
+t1280801696
+s35876
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Pad.o
+t1280801696
+s37660
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Phone.o
+t1280801696
+s33104
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController.o
+t1280801697
+s46812
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPad.o
+t1280801697
+s34832
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPhone.o
+t1280801697
+s34016
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample
+t1280801697
+s53952
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample.LinkFileList
+c000000004C577B940000000000000793
+t1280801684
+s1939
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Pad.o
+t1280801696
+s44136
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Phone.o
+t1280801696
+s45544
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/main.o
+t1280801696
+s3244
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController.o
+t1280801697
+s48132
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Pad.o
+t1280801697
+s47468
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Phone.o
+t1280801697
+s34928
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/Model.o
+t1280801697
+s9496
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController.o
+t1280801697
+s36008
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Pad.o
+t1280801697
+s37776
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Phone.o
+t1280801697
+s33192
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController.o
+t1280801698
+s47288
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPad.o
+t1280801698
+s35012
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPhone.o
+t1280801698
+s34172
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample
+t1280801698
+s58004
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample.LinkFileList
+c000000004C577B940000000000000793
+t1280801684
+s1939
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Pad.o
+t1280801697
+s44292
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Phone.o
+t1280801697
+s45700
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/main.o
+t1280801697
+s3292
+
+N/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent
+t1280801698
+s438
+
+N/Users/cwiles/Desktop/Universal App/main.m
+c000000004C518BED0000000000000170
+t1280412653
+s368
+i<UIKit/UIKit.h>
+
+N/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision
+c000000004C34BE440000000000001ED6
+t1278524996
+s7894
+
+N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch.gch
+t1280801696
+s8087088
+
+N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch.gch
+t1280801696
+s7607856
+
+NUniversalExample-Info.plist
+c000000004C571296000000000000080B
+t1280774806
+s2059
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302494484#302494484#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCodeSign "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"
+s302494498.522042
+e302494498.960952
+r1
+xCodeSign
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app
+lSLF07#2@50"CodeSign build/Debug-iphoneos/UniversalExample.app302494498#302494498#0(0"0(0#0#77"/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app8602145984#687"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Cory Wiles (98422P78Z5)" "--resource-rules=/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/ResourceRules.plist" --entitlements "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent" "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.578613
+e302494496.690785
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m302494496#302494496#0(0"0(0#0#66"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m8602196128#2018"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.809893
+e302494496.937147
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m302494496#302494496#0(0"0(0#0#70"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m8602971712#2026"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.897137
+e302494496.997635
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m302494496#302494496#0(0"0(0#0#72"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m8602174688#2030"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/DetailViewController_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/Model.o "/Users/cwiles/Desktop/Universal App/Classes/Model.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.937248
+e302494497.002935
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/Model.o
+x/Users/cwiles/Desktop/Universal App/Classes/Model.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Compile /Users/cwiles/Desktop/Universal App/Classes/Model.m302494496#302494497#0(0"0(0#0#51"/Users/cwiles/Desktop/Universal App/Classes/Model.m8596131232#1988"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/Model.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/Model.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.440419
+e302494496.597781
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController.m302494496#302494496#0(0"0(0#0#64"/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m8602112800#2014"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.711244
+e302494496.809794
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m302494496#302494496#0(0"0(0#0#68"/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m8605186368#2022"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.806101
+e302494496.897033
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m302494496#302494496#0(0"0(0#0#70"/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m8604800704#2026"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/RootViewController_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.997739
+e302494497.131859
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@77"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m302494496#302494497#0(0"0(0#0#69"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m8593734656#2024"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPad.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494497.003038
+e302494497.104188
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPad.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m302494497#302494497#0(0"0(0#0#74"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m8605370720#2034"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPhone.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494497.104296
+e302494497.198589
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPhone.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@84"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m302494497#302494497#0(0"0(0#0#76"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m8605185216#2038"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/SubDetailViewController_iPhone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.690879
+e302494496.805865
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m302494496#302494496#0(0"0(0#0#77"/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m8604764032#2040"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.597888
+e302494496.711132
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@87"Compile /Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m302494496#302494496#0(0"0(0#0#79"/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m8603512032#2044"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExampleAppDelegate_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/main.o "/Users/cwiles/Desktop/Universal App/main.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494496.439099
+e302494496.578503
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/main.o
+x/Users/cwiles/Desktop/Universal App/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@50"Compile /Users/cwiles/Desktop/Universal App/main.m302494496#302494496#0(0"0(0#0#42"/Users/cwiles/Desktop/Universal App/main.m8596556224#1978"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/main.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.296397
+e302494497.399416
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m302494497#302494497#0(0"0(0#0#66"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m8603050208#2018"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.728584
+e302494497.857127
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m302494497#302494497#0(0"0(0#0#70"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m8600223552#2026"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.808371
+e302494497.918823
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m302494497#302494497#0(0"0(0#0#72"/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m8598759200#2030"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/DetailViewController_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/DetailViewController_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/Model.o "/Users/cwiles/Desktop/Universal App/Classes/Model.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.857233
+e302494497.934553
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/Model.o
+x/Users/cwiles/Desktop/Universal App/Classes/Model.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Compile /Users/cwiles/Desktop/Universal App/Classes/Model.m302494497#302494497#0(0"0(0#0#51"/Users/cwiles/Desktop/Universal App/Classes/Model.m8604654976#1988"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/Model.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/Model.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.197316
+e302494497.296294
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController.m302494497#302494497#0(0"0(0#0#64"/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m8603021952#2014"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.617906
+e302494497.714842
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m302494497#302494497#0(0"0(0#0#68"/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m8602952608#2022"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.714949
+e302494497.808266
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m302494497#302494497#0(0"0(0#0#70"/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m8595694816#2026"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/RootViewController_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/RootViewController_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.918931
+e302494498.058505
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@77"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m302494497#302494498#0(0"0(0#0#69"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m8602624000#2024"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPad.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.934743
+e302494498.026928
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPad.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m302494497#302494498#0(0"0(0#0#74"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m8601981888#2034"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPhone.o "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494498.027033
+e302494498.104453
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPhone.o
+x/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@84"Compile /Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m302494498#302494498#0(0"0(0#0#76"/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m8604774464#2038"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/SubDetailViewController_iPhone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/SubDetailViewController_iPhone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Pad.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.494579
+e302494497.617805
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Pad.o
+x/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m302494497#302494497#0(0"0(0#0#77"/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m8604924384#2040"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Pad.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Pad.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Phone.o "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.399523
+e302494497.494471
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Phone.o
+x/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@87"Compile /Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m302494497#302494497#0(0"0(0#0#79"/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m8602754432#2044"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/Classes/UniversalExampleAppDelegate_Phone.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExampleAppDelegate_Phone.o"0#
+
+CCompileC build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/main.o "/Users/cwiles/Desktop/Universal App/main.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494497.131973
+e302494497.197210
+r1
+xCompileC
+xbuild/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/main.o
+x/Users/cwiles/Desktop/Universal App/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@50"Compile /Users/cwiles/Desktop/Universal App/main.m302494497#302494497#0(0"0(0#0#42"/Users/cwiles/Desktop/Universal App/main.m8603408384#1978"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch -c "/Users/cwiles/Desktop/Universal App/main.m" -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib"
+s302494493.309805
+e302494493.742619
+r1
+xCompileXIB
+x/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib
+lSLF07#2@30"CompileXIB MainWindow-iPad.xib302494493#302494493#0(0"0(0#0#55"/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib8602980992#558"    cd "/Users/cwiles/Desktop/Universal App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/MainWindow-iPad.nib" "/Users/cwiles/Desktop/Universal App/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/cwiles/Desktop/Universal App/MainWindow.xib"
+s302494485.116043
+e302494493.401315
+r1
+xCompileXIB
+x/Users/cwiles/Desktop/Universal App/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302494485#302494493#0(0"0(0#0#50"/Users/cwiles/Desktop/Universal App/MainWindow.xib8603551040#548"    cd "/Users/cwiles/Desktop/Universal App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/MainWindow.nib" "/Users/cwiles/Desktop/Universal App/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/cwiles/Desktop/Universal App/RootViewController.xib"
+s302494485.116765
+e302494493.309619
+r1
+xCompileXIB
+x/Users/cwiles/Desktop/Universal App/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib302494485#302494493#0(0"0(0#0#58"/Users/cwiles/Desktop/Universal App/RootViewController.xib8602786688#564"    cd "/Users/cwiles/Desktop/Universal App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/RootViewController.nib" "/Users/cwiles/Desktop/Universal App/RootViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCpResource build/Debug-iphoneos/UniversalExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s302494484.918749
+e302494485.115958
+r1
+xCpResource
+xbuild/Debug-iphoneos/UniversalExample.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist302494484#302494485#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8101813437696656384#487"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"0#
+
+CCreateUniversalBinary "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample" normal "armv6 armv7"
+s302494498.290170
+e302494498.350978
+r1
+xCreateUniversalBinary
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample
+xnormal
+xarmv6 armv7
+lSLF07#2@101"CreateUniversalBinary build/Debug-iphoneos/UniversalExample.app/UniversalExample normal "armv6 armv7"302494498#302494498#0(0"0(0#0#47"/Users/cwiles/Desktop/Universal App/armv6 armv78590913184#586"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample" "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample" -output "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample"0#
+
+CGenerateDSYMFile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app.dSYM" "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample"
+s302494498.351077
+e302494498.480235
+r1
+xGenerateDSYMFile
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app.dSYM
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample
+lSLF07#2@122"GenerateDSYMFile build/Debug-iphoneos/UniversalExample.app.dSYM build/Debug-iphoneos/UniversalExample.app/UniversalExample302494498#302494498#0(0"0(0#0#94"/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample8600415296#386"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/UniversalExample" -o "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app.dSYM"0#
+
+CLd "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample" normal armv6
+s302494497.198675
+e302494497.728476
+r1
+xLd
+x/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample
+xnormal
+xarmv6
+lSLF07#2@145"Link /Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample302494497#302494497#0(0"0(0#0#0"8602497600#918"    cd "/Users/cwiles/Desktop/Universal App"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" -filelist "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv6/UniversalExample"0#
+
+CLd "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample" normal armv7
+s302494498.104548
+e302494498.290075
+r1
+xLd
+x/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample
+xnormal
+xarmv7
+lSLF07#2@145"Link /Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample302494498#302494498#0(0"0(0#0#0"8603022144#918"    cd "/Users/cwiles/Desktop/Universal App"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" -filelist "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/Objects-normal/armv7/UniversalExample"0#
+
+CProcessInfoPlistFile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/Info.plist" UniversalExample-Info.plist
+s302494485.012165
+e302494485.084693
+r1
+xProcessInfoPlistFile
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/Info.plist
+xUniversalExample-Info.plist
+lSLF07#2@35"Process UniversalExample-Info.plist302494485#302494485#0(0"0(0#0#63"/Users/cwiles/Desktop/Universal App/UniversalExample-Info.plist8603494144#594"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UniversalExample-Info.plist -genpkginfo "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/ResourceRules.plist" -o "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/Info.plist"0#
+
+CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s302494493.743845
+e302494496.438959
+r1
+xProcessPCH
+x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch.gch
+xUniversalExample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@38"Precompile UniversalExample_Prefix.pch302494493#302494496#0(0"0(0#0#63"/Users/cwiles/Desktop/Universal App/UniversalExample_Prefix.pch8602429920#1868"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv7" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -c "/Users/cwiles/Desktop/Universal App/UniversalExample_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cncdorhfglcktsfslzggnpxeuenn/UniversalExample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s302494493.742903
+e302494496.432778
+r1
+xProcessPCH
+x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch.gch
+xUniversalExample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@38"Precompile UniversalExample_Prefix.pch302494493#302494496#0(0"0(0#0#63"/Users/cwiles/Desktop/Universal App/UniversalExample_Prefix.pch8603309024#1868"    cd "/Users/cwiles/Desktop/Universal App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos" "-I/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/include" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources/armv6" "-I/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/DerivedSources" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -c "/Users/cwiles/Desktop/Universal App/UniversalExample_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cyoobhwukbowcggwbdffrxupatwn/UniversalExample_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision"
+s302494498.480337
+e302494498.481740
+r1
+xProcessProductPackaging
+x/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision302494498#302494498#0(0"0(0#0#102"/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision8604990528#431"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" -o "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent"
+s302494498.501105
+e302494498.521938
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent
+lSLF07#2@202"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent302494498#302494498#0(0"0(0#0#125"/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent8602920192#457"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/cwiles/Desktop/Universal App/build/UniversalExample.build/Debug-iphoneos/UniversalExample.build/UniversalExample.xcent"0#
+
+CTouch "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"
+s302494498.481805
+e302494498.501002
+r1
+xTouch
+x/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app
+lSLF07#2@83"Touch /Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app302494498#302494498#0(0"0(0#0#0"8603418816#271"    cd "/Users/cwiles/Desktop/Universal App"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cwiles/Desktop/Universal App/build/Debug-iphoneos/UniversalExample.app"0#
+
