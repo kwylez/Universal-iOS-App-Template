@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Model.h"
 
-@interface RootViewController : UITableViewController {
-
+@interface RootViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+  UITableView *tblView;
 }
+
+@property (nonatomic, retain) UITableView *tblView;
 
 @end
