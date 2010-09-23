@@ -11,9 +11,13 @@
 
 @implementation RootViewController_Pad
 
+- (void)loadView {
+  [super loadView];
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-  [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+  [self.tblView deselectRowAtIndexPath:indexPath animated:YES];
   
   UniversalExampleAppDelegate_Pad *delegate      = [[UIApplication sharedApplication] delegate];
   DetailViewController_Pad *detailViewController = (DetailViewController_Pad *)[delegate.splitViewController.viewControllers objectAtIndex:1];
