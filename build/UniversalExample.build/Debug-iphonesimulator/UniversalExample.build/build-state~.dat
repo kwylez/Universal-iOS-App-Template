@@ -1,1406 +1,0 @@
-TUniversalExample
-v7
-r0
-t302194418.986908
-cCheck dependencies
-cProcessInfoPlistFile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/Info.plist" UniversalExample-Info.plist
-cCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib"
-cCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib"
-cCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib"
-cProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o "/Users/coryw/iOS Projects/UniversalExampleV3/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" normal i386
-cGenerateDSYMFile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app.dSYM" "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"
-cTouch "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C44B2770000000000000132
-t1279570551
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
-c000000004BF4CBF90000000000001A3B
-t1274334201
-s6715
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.h
-c000000004C518C2F00000000000000F8
-t1280412719
-s248
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m
-c000000004C518E350000000000000831
-t1280413237
-s2097
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.h
-c000000004C51A1690000000000000114
-t1280418153
-s276
-i<UIKit/UIKit.h>
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m
-c000000004C51A1740000000000000B60
-t1280418164
-s2912
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.h
-c000000004C5192470000000000000269
-t1280414279
-s617
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m
-c000000004C519E940000000000000BF3
-t1280417428
-s3059
-i"UniversalExampleAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExample/DetailView.xib
-c000000004C518E8A0000000000004610
-t1280413322
-s17936
-
-N/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad-New.xib
-c000000004C519D410000000000006E48
-t1280417089
-s28232
-
-N/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad.xib
-c000000004C51A2580000000000006EED
-t1280418392
-s28397
-
-N/Users/coryw/iOS Projects/UniversalExample/MainWindow.xib
-c000000004C518ED000000000000062CF
-t1280413392
-s25295
-
-N/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad-old.xib
-c000000004C518F2A000000000000628A
-t1280413482
-s25226
-
-N/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad.xib
-c000000004C518F2A000000000000628A
-t1280413482
-s25226
-
-N/Users/coryw/iOS Projects/UniversalExample/RootViewController.xib
-c000000004C518BED000000000000445B
-t1280412653
-s17499
-
-N/Users/coryw/iOS Projects/UniversalExample/UniversalExample_Prefix.pch
-c000000004C518BED0000000000000152
-t1280412653
-s338
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app
-t1280418126
-s306
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-t1280418126
-s102
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/DetailView.nib
-t1280417739
-s1108
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-t1280417739
-s895
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad-New.nib
-t2
-s0
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad-old.nib
-t1280417214
-s1664
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib
-t1280418126
-s1919
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib
-t1280417739
-s1664
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo
-t1280417739
-s8
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib
-t1280417739
-s979
-
-N/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-t1280418126
-s21416
-
-N/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-t1280417740
-s38904
-
-N/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-t1280418126
-s42240
-
-N/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList
-c000000004C519FCB0000000000000275
-t1280417739
-s629
-
-N/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o
-t1280418126
-s53156
-
-N/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-t1280417740
-s6312
-
-N/Users/coryw/iOS Projects/UniversalExample/main.m
-c000000004C518BED0000000000000170
-t1280412653
-s368
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.h
-c000000004C51C3E7000000000000013C
-t1280426983
-s316
-i<Foundation/Foundation.h>
-i"RootViewController.h"
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m
-c000000004C51C3EE00000000000002DC
-t1280426990
-s732
-i"DetailViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.h
-c000000004C51B92900000000000000F5
-t1280424233
-s245
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m
-c000000004C51B929000000000000062A
-t1280424233
-s1578
-i"DetailView2Controller.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.h
-c000000004C518C2F00000000000000F8
-t1280412719
-s248
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m
-c000000004C51C491000000000000087D
-t1280427153
-s2173
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.h
-c000000004C51C6B00000000000000179
-t1280427696
-s377
-i<Foundation/Foundation.h>
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m
-c000000004C51C775000000000000037E
-t1280427893
-s894
-i"DetailViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.h
-c000000004C51C4080000000000000129
-t1280427016
-s297
-i<Foundation/Foundation.h>
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m
-c000000004C51C9AB0000000000000359
-t1280428459
-s857
-i"DetailViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.h
-c000000004C51C83400000000000000F3
-t1280428084
-s243
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m
-c000000004C51C0480000000000000D4C
-t1280426056
-s3404
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.h
-c000000004C51C79D0000000000000146
-t1280427933
-s326
-i<Foundation/Foundation.h>
-i"RootViewController.h"
-i"DetailViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m
-c000000004C51CA290000000000000225
-t1280428585
-s549
-i"RootViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.h
-c000000004C51C7AE000000000000014C
-t1280427950
-s332
-i<Foundation/Foundation.h>
-i"RootViewController.h"
-i"DetailViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m
-c000000004C51C81C0000000000000229
-t1280428060
-s553
-i"RootViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.h
-c000000004C5192470000000000000269
-t1280414279
-s617
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m
-c000000004C519E940000000000000BF3
-t1280417428
-s3059
-i"UniversalExampleAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.h
-c000000004C51BFAB00000000000001DC
-t1280425899
-s476
-i<Foundation/Foundation.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m
-c000000004C51BE540000000000000A11
-t1280425556
-s2577
-i"UniversalExampleAppDelegate_Pad.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.h
-c000000004C51BDCE00000000000001E4
-t1280425422
-s484
-i<Foundation/Foundation.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m
-c000000004C51CB2B0000000000000A17
-t1280428843
-s2583
-i"UniversalExampleAppDelegate_Phone.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-new.xib
-c000000004C51CBD0000000000000533B
-t1280429008
-s21307
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-old.xib
-c000000004C51C8F900000000000055BF
-t1280428281
-s21951
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad.xib
-c000000004C51CD460000000000005361
-t1280429382
-s21345
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/DetailView.xib
-c000000004C51C8A700000000000047AA
-t1280428199
-s18346
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/DetailView2.xib
-c000000004C51B9FA000000000000407D
-t1280424442
-s16509
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow-iPad.xib
-c000000004C51CC710000000000007695
-t1280429169
-s30357
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow.xib
-c000000004C51BF070000000000006475
-t1280425735
-s25717
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/RootViewController.xib
-c000000004C518BED000000000000445B
-t1280412653
-s17499
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/UniversalExample_Prefix.pch
-c000000004C518BED0000000000000152
-t1280412653
-s338
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app
-t1280429388
-s374
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-t1280429180
-s102
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad-new.nib
-t2
-s0
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad-old.nib
-t1280429179
-s1344
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad.nib
-t1280429388
-s1260
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView.nib
-t1280428799
-s1108
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView2.nib
-t1280424446
-s1182
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-t1280428799
-s895
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib
-t1280429179
-s2063
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib
-t1280428799
-s1700
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo
-t1280428799
-s8
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib
-t1280428799
-s979
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-t1280429180
-s31548
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailController_Phone.o
-t1280426086
-s5168
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailView2Controller.o
-t1280424409
-s34608
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-t1280428800
-s37164
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
-t1280428800
-s38676
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
-t1280428801
-s36660
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-t1280428800
-s39096
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
-t1280428800
-s35760
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
-t1280428800
-s35184
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList
-c000000004C51CAFF00000000000005C8
-t1280428799
-s1480
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o
-t1280424409
-s53160
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
-t1280428800
-s46008
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
-t1280429180
-s47340
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-t1280428800
-s6316
-
-N/Users/coryw/iOS Projects/UniversalExampleV2/main.m
-c000000004C518BED0000000000000170
-t1280412653
-s368
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.h
-c000000004C51F63F00000000000001E6
-t1280439871
-s486
-i<UIKit/UIKit.h>
-i"Model.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m
-c000000004C52E4790000000000000C00
-t1280500857
-s3072
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.h
-c000000004C51E19400000000000001D8
-t1280434580
-s472
-i<Foundation/Foundation.h>
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m
-c000000004C51EB5E00000000000007C6
-t1280437086
-s1990
-i"DetailViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.h
-c000000004C51C4080000000000000129
-t1280427016
-s297
-i<Foundation/Foundation.h>
-i"DetailViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m
-c000000004C52E05D000000000000024F
-t1280499805
-s591
-i"DetailViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.h
-c000000004C51F0D00000000000000171
-t1280438480
-s369
-i<Foundation/Foundation.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m
-c000000004C52E42C000000000000048E
-t1280500780
-s1166
-i"Model.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.h
-c000000004C51F6D30000000000000105
-t1280440019
-s261
-i<UIKit/UIKit.h>
-i"Model.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m
-c000000004C52E37600000000000005C3
-t1280500598
-s1475
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.h
-c000000004C51C79D0000000000000146
-t1280427933
-s326
-i<Foundation/Foundation.h>
-i"RootViewController.h"
-i"DetailViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m
-c000000004C51F7190000000000000292
-t1280440089
-s658
-i"RootViewController_Pad.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.h
-c000000004C51C7AE000000000000014C
-t1280427950
-s332
-i<Foundation/Foundation.h>
-i"RootViewController.h"
-i"DetailViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m
-c000000004C52E44F00000000000002E3
-t1280500815
-s739
-i"RootViewController_Phone.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.h
-c000000004C51BFAB00000000000001DC
-t1280425899
-s476
-i<Foundation/Foundation.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m
-c000000004C51BE540000000000000A11
-t1280425556
-s2577
-i"UniversalExampleAppDelegate_Pad.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.h
-c000000004C51BDCE00000000000001E4
-t1280425422
-s484
-i<Foundation/Foundation.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m
-c000000004C51CB2B0000000000000A17
-t1280428843
-s2583
-i"UniversalExampleAppDelegate_Phone.h"
-i"RootViewController.h"
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/DetailView-iPad.xib
-c000000004C51CD460000000000005361
-t1280429382
-s21345
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/DetailView.xib
-c000000004C51C8A700000000000047AA
-t1280428199
-s18346
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib
-c000000004C51DD9C0000000000007798
-t1280433564
-s30616
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib
-c000000004C51BF070000000000006475
-t1280425735
-s25717
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib
-c000000004C518BED000000000000445B
-t1280412653
-s17499
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/UniversalExample_Prefix.pch
-c000000004C518BED0000000000000152
-t1280412653
-s338
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app
-t1280501618
-s272
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-t1280501618
-s102
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad.nib
-t1280430582
-s1260
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/DetailView.nib
-t1280428799
-s1108
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-t1280501617
-s895
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib
-t1280501617
-s2063
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib
-t1280501617
-s1700
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo
-t1280501617
-s8
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib
-t1280501617
-s979
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-t1280501618
-s47768
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-t1280501618
-s51364
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
-t1280501618
-s47524
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
-t1280501618
-s35884
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o
-t1280501618
-s11896
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-t1280501618
-s38272
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
-t1280501618
-s36152
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
-t1280501618
-s35728
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList
-c000000004C52E771000000000000065B
-t1280501617
-s1627
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
-t1280501618
-s46008
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
-t1280501618
-s47340
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-t1280501618
-s6316
-
-N/Users/coryw/iOS Projects/UniversalExampleV3/main.m
-c000000004C518BED0000000000000170
-t1280412653
-s368
-i<UIKit/UIKit.h>
-
-N/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch.gch
-t1280501618
-s15232016
-
-N/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch.gch
-t1280417740
-s15232016
-
-N/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch.gch
-t1280428800
-s15232016
-
-NUniversalExample-Info.plist
-c000000004C51904400000000000004F0
-t1280413764
-s1264
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302194417#302194417#0(0"0(0#1#0"8614855264#0"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302118886.816452
-e302118886.868098
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailController_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m302118886#302118886#0(0"0(0#0#77"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m8613886016#2213"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailController_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailController_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailView2Controller.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302117209.033957
-e302117209.104921
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailView2Controller.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m302117209#302117209#0(0"0(0#0#76"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m8615385536#2211"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailView2Controller.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailView2Controller.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o "/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302110540.637930
-e302110540.718568
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-x/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m302110540#302110540#0(0"0(0#0#73"/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m8612174240#2187"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExample/Classes/DetailViewController.m" -o "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.739451
-e302121600.810512
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m302121600#302121600#0(0"0(0#0#75"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m8616089152#2209"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.613138
-e302194418.701884
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m302194418#302194418#0(0"0(0#0#75"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m8614747200#2209"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.902499
-e302121601.002532
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m302121600#302121601#0(0"0(0#0#79"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m8615090976#2217"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.782183
-e302194418.882336
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m302194418#302194418#0(0"0(0#0#79"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m8601603232#2217"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.954191
-e302121601.019570
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m302121600#302121601#0(0"0(0#0#81"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m8613688992#2221"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/DetailViewController_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.855996
-e302194418.920683
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m302194418#302194418#0(0"0(0#0#81"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m8607442240#2221"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/DetailViewController_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/DetailViewController_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.882423
-e302194418.936757
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m302194418#302194418#0(0"0(0#0#60"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m8615053248#2179"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/Model.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/Model.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o "/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302110926.676083
-e302110926.799847
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-x/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m302110926#302110926#0(0"0(0#0#71"/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m8617727840#2183"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExample/Classes/RootViewController.m" -o "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.688321
-e302121600.757695
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m302121600#302121600#0(0"0(0#0#73"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m8596584032#2205"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.560972
-e302194418.640541
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m302194418#302194418#0(0"0(0#0#73"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m8615425280#2205"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.840574
-e302121600.902406
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m302121600#302121600#0(0"0(0#0#77"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m8615599712#2213"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.722551
-e302194418.782095
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m302194418#302194418#0(0"0(0#0#77"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m8604397408#2213"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.885789
-e302121600.954104
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m302121600#302121600#0(0"0(0#0#79"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m8615323456#2217"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/RootViewController_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.775074
-e302194418.855797
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m302194418#302194418#0(0"0(0#0#79"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m8603088928#2217"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/RootViewController_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/RootViewController_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o "/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302110926.675127
-e302110926.760046
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o
-x/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m302110926#302110926#0(0"0(0#0#80"/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m8617862528#2201"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExample/Classes/UniversalExampleAppDelegate.m" -o "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302117208.950888
-e302117209.033372
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m302117208#302117209#0(0"0(0#0#82"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m8615254848#2223"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.810600
-e302121600.885699
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m302121600#302121600#0(0"0(0#0#86"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m8604474784#2231"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.701974
-e302194418.774989
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m302194418#302194418#0(0"0(0#0#86"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m8613512000#2231"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Pad.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Pad.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121980.001264
-e302121980.113444
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m302121980#302121980#0(0"0(0#0#88"/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m8617363872#2235"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/Classes/UniversalExampleAppDelegate_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.640631
-e302194418.722462
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m302194418#302194418#0(0"0(0#0#88"/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m8614377504#2235"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/Classes/UniversalExampleAppDelegate_Phone.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExampleAppDelegate_Phone.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o "/Users/coryw/iOS Projects/UniversalExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302110540.548904
-e302110540.615628
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-x/Users/coryw/iOS Projects/UniversalExample/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/coryw/iOS Projects/UniversalExample/main.m302110540#302110540#0(0"0(0#0#49"/Users/coryw/iOS Projects/UniversalExample/main.m8615942464#2147"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExample/main.m" -o "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o "/Users/coryw/iOS Projects/UniversalExampleV2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.687372
-e302121600.739362
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-x/Users/coryw/iOS Projects/UniversalExampleV2/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/coryw/iOS Projects/UniversalExampleV2/main.m302121600#302121600#0(0"0(0#0#51"/Users/coryw/iOS Projects/UniversalExampleV2/main.m8615661120#2169"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV2/main.m" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o "/Users/coryw/iOS Projects/UniversalExampleV3/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194418.559790
-e302194418.612973
-r1
-xCompileC
-xbuild/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o
-x/Users/coryw/iOS Projects/UniversalExampleV3/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/coryw/iOS Projects/UniversalExampleV3/main.m302194418#302194418#0(0"0(0#0#51"/Users/coryw/iOS Projects/UniversalExampleV3/main.m8613617248#2169"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch -c "/Users/coryw/iOS Projects/UniversalExampleV3/main.m" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/DetailView.xib"
-s302110539.543006
-e302110539.916064
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/DetailView.xib
-lSLF07#2@25"CompileXIB DetailView.xib302110539#302110539#0(0"0(0#0#57"/Users/coryw/iOS Projects/UniversalExample/DetailView.xib8614120384#597"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/DetailView.nib" "/Users/coryw/iOS Projects/UniversalExample/DetailView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad-New.xib"
-r0
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad.xib"
-s302110926.305056
-e302110926.674537
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad.xib
-lSLF07#2@30"CompileXIB MainWindow-iPad.xib302110926#302110926#0(0"0(0#0#62"/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad.xib8615373696#607"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib" "/Users/coryw/iOS Projects/UniversalExample/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/MainWindow.xib"
-s302110539.187670
-e302110539.609300
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302110539#302110539#0(0"0(0#0#57"/Users/coryw/iOS Projects/UniversalExample/MainWindow.xib8606194240#597"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib" "/Users/coryw/iOS Projects/UniversalExample/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad-old.xib"
-s302110014.260722
-e302110014.638492
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad-old.xib
-lSLF07#2@49"CompileXIB Resources-iPad/MainWindow-iPad-old.xib302110014#302110014#0(0"0(0#0#81"/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad-old.xib8614776320#630"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad-old.nib" "/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad-old.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad.xib"
-s302107505.626578
-e302107506.016418
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad.xib
-lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib302107505#302107506#0(0"0(0#0#77"/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad.xib8614167584#622"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib" "/Users/coryw/iOS Projects/UniversalExample/Resources-iPad/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExample/RootViewController.xib"
-s302110539.188299
-e302110539.542923
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExample/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib302110539#302110539#0(0"0(0#0#65"/Users/coryw/iOS Projects/UniversalExample/RootViewController.xib8600499840#613"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib" "/Users/coryw/iOS Projects/UniversalExample/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-new.xib"
-r0
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-old.xib"
-s302121979.233620
-e302121979.634228
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-old.xib
-lSLF07#2@34"CompileXIB DetailView-iPad-old.xib302121979#302121979#0(0"0(0#0#68"/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-old.xib8614614880#621"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad-old.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad-old.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad.xib"
-s302122187.650466
-e302122188.019055
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad.xib
-lSLF07#2@30"CompileXIB DetailView-iPad.xib302122187#302122188#0(0"0(0#0#64"/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad.xib8614547072#613"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView.xib"
-s302121599.382708
-e302121599.750611
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/DetailView.xib
-lSLF07#2@25"CompileXIB DetailView.xib302121599#302121599#0(0"0(0#0#59"/Users/coryw/iOS Projects/UniversalExampleV2/DetailView.xib8615849376#603"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView2.xib"
-s302117246.372209
-e302117246.723024
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/DetailView2.xib
-lSLF07#2@26"CompileXIB DetailView2.xib302117246#302117246#0(0"0(0#0#60"/Users/coryw/iOS Projects/UniversalExampleV2/DetailView2.xib8614717504#605"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/DetailView2.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/DetailView2.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow-iPad.xib"
-s302121979.232510
-e302121979.652103
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow-iPad.xib
-lSLF07#2@30"CompileXIB MainWindow-iPad.xib302121979#302121979#0(0"0(0#0#64"/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow-iPad.xib8614651744#613"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow.xib"
-s302121599.016098
-e302121599.439145
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302121599#302121599#0(0"0(0#0#59"/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow.xib8613914656#603"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV2/RootViewController.xib"
-s302121599.016731
-e302121599.382631
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV2/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib302121599#302121599#0(0"0(0#0#67"/Users/coryw/iOS Projects/UniversalExampleV2/RootViewController.xib8613770336#619"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib" "/Users/coryw/iOS Projects/UniversalExampleV2/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/DetailView-iPad.xib"
-s302123382.035116
-e302123382.441886
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV3/DetailView-iPad.xib
-lSLF07#2@30"CompileXIB DetailView-iPad.xib302123382#302123382#0(0"0(0#0#64"/Users/coryw/iOS Projects/UniversalExampleV3/DetailView-iPad.xib8612467776#613"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/DetailView-iPad.nib" "/Users/coryw/iOS Projects/UniversalExampleV3/DetailView-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/DetailView.xib"
-r0
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib"
-s302194417.549115
-e302194417.921915
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib
-lSLF07#2@30"CompileXIB MainWindow-iPad.xib302194417#302194417#0(0"0(0#0#64"/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib8614148928#613"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/MainWindow-iPad.nib" "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow-iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib"
-s302194417.113621
-e302194417.556415
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302194417#302194417#0(0"0(0#0#59"/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib8602808288#603"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/MainWindow.nib" "/Users/coryw/iOS Projects/UniversalExampleV3/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB "/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib"
-s302194417.114234
-e302194417.549036
-r1
-xCompileXIB
-x/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib302194417#302194417#0(0"0(0#0#67"/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib8613522848#619"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/RootViewController.nib" "/Users/coryw/iOS Projects/UniversalExampleV3/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CGenerateDSYMFile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app.dSYM" "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"
-s302110926.825369
-e302110926.840941
-r1
-xGenerateDSYMFile
-x/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-x/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/UniversalExample.app.dSYM build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302110926#302110926#0(0"0(0#0#108"/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample8617559136#428"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" -o "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app.dSYM"0#
-
-CGenerateDSYMFile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app.dSYM" "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"
-s302121980.136678
-e302121980.162744
-r1
-xGenerateDSYMFile
-x/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-x/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/UniversalExample.app.dSYM build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302121980#302121980#0(0"0(0#0#110"/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample8607985824#434"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app.dSYM"0#
-
-CGenerateDSYMFile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app.dSYM" "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"
-s302194418.959435
-e302194418.982782
-r1
-xGenerateDSYMFile
-x/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app.dSYM
-x/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/UniversalExample.app.dSYM build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302194418#302194418#0(0"0(0#0#110"/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample8613312736#434"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app.dSYM"0#
-
-CLd "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" normal i386
-s302110926.799927
-e302110926.825289
-r1
-xLd
-x/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-xnormal
-xi386
-lSLF07#2@113"Link /Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302110926#302110926#0(0"0(0#0#0"8618042496#980"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" -filelist "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"0#
-
-CLd "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" normal i386
-s302121980.113523
-e302121980.136590
-r1
-xLd
-x/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-xnormal
-xi386
-lSLF07#2@115"Link /Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302121980#302121980#0(0"0(0#0#0"8615826528#990"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" -filelist "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"0#
-
-CLd "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample" normal i386
-s302194418.936831
-e302194418.959351
-r1
-xLd
-x/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample
-xnormal
-xi386
-lSLF07#2@115"Link /Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample302194418#302194418#0(0"0(0#0#0"8614518400#990"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" -filelist "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/Objects-normal/i386/UniversalExample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -weak_framework UIKit -framework CoreGraphics -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/UniversalExample"0#
-
-CProcessInfoPlistFile "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/Info.plist" UniversalExample-Info.plist
-s302110539.182610
-e302110539.187573
-r1
-xProcessInfoPlistFile
-x/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-xUniversalExample-Info.plist
-lSLF07#2@35"Process UniversalExample-Info.plist302110539#302110539#0(0"0(0#0#70"/Users/coryw/iOS Projects/UniversalExample/UniversalExample-Info.plist8607261056#524"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UniversalExample-Info.plist -genpkginfo "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app/Info.plist"0#
-
-CProcessInfoPlistFile "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/Info.plist" UniversalExample-Info.plist
-s302121599.012092
-e302121599.016016
-r1
-xProcessInfoPlistFile
-x/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-xUniversalExample-Info.plist
-lSLF07#2@35"Process UniversalExample-Info.plist302121599#302121599#0(0"0(0#0#72"/Users/coryw/iOS Projects/UniversalExampleV2/UniversalExample-Info.plist8614748608#530"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UniversalExample-Info.plist -genpkginfo "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app/Info.plist"0#
-
-CProcessInfoPlistFile "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/Info.plist" UniversalExample-Info.plist
-s302194417.100916
-e302194417.113545
-r1
-xProcessInfoPlistFile
-x/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/Info.plist
-xUniversalExample-Info.plist
-lSLF07#2@35"Process UniversalExample-Info.plist302194417#302194417#0(0"0(0#0#72"/Users/coryw/iOS Projects/UniversalExampleV3/UniversalExample-Info.plist8614991232#530"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UniversalExample-Info.plist -genpkginfo "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app/Info.plist"0#
-
-CProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302194417.922020
-e302194418.559700
-r1
-xProcessPCH
-x/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch.gch
-xUniversalExample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile UniversalExample_Prefix.pch302194417#302194418#0(0"0(0#0#72"/Users/coryw/iOS Projects/UniversalExampleV3/UniversalExample_Prefix.pch8613833024#2044"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV3/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -c "/Users/coryw/iOS Projects/UniversalExampleV3/UniversalExample_Prefix.pch" -o /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-cndbwgvltqnbdkfdroiwsmadbupn/UniversalExample_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302110540.012892
-e302110540.548783
-r1
-xProcessPCH
-x/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch.gch
-xUniversalExample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile UniversalExample_Prefix.pch302110540#302110540#0(0"0(0#0#70"/Users/coryw/iOS Projects/UniversalExample/UniversalExample_Prefix.pch8612350368#2024"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExample/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -c "/Users/coryw/iOS Projects/UniversalExample/UniversalExample_Prefix.pch" -o /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-erbauyskjgbcbsgqaoahelslabnz/UniversalExample_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch.gch UniversalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302121600.119434
-e302121600.687251
-r1
-xProcessPCH
-x/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch.gch
-xUniversalExample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile UniversalExample_Prefix.pch302121600#302121600#0(0"0(0#0#72"/Users/coryw/iOS Projects/UniversalExampleV2/UniversalExample_Prefix.pch8617799904#2044"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-generated-files.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-own-target-headers.hmap" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-all-target-headers.hmap" -iquote "/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/UniversalExample-project-headers.hmap" "-F/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/include" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources/i386" "-I/Users/coryw/iOS Projects/UniversalExampleV2/build/UniversalExample.build/Debug-iphonesimulator/UniversalExample.build/DerivedSources" -c "/Users/coryw/iOS Projects/UniversalExampleV2/UniversalExample_Prefix.pch" -o /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UniversalExample_Prefix-gxxfotgaxawbvhaqsffbogjzrdif/UniversalExample_Prefix.pch.gch0#
-
-CTouch "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app"
-s302110926.841015
-e302110926.843174
-r1
-xTouch
-x/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app
-lSLF07#2@97"Touch /Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app302110926#302110926#0(0"0(0#0#0"8617410528#299"    cd "/Users/coryw/iOS Projects/UniversalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/coryw/iOS Projects/UniversalExample/build/Debug-iphonesimulator/UniversalExample.app"0#
-
-CTouch "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app"
-s302122188.019993
-e302122188.022269
-r1
-xTouch
-x/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app
-lSLF07#2@99"Touch /Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app302122188#302122188#0(0"0(0#0#0"8615613344#303"    cd "/Users/coryw/iOS Projects/UniversalExampleV2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/coryw/iOS Projects/UniversalExampleV2/build/Debug-iphonesimulator/UniversalExample.app"0#
-
-CTouch "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app"
-s302194418.982848
-e302194418.986868
-r1
-xTouch
-x/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app
-lSLF07#2@99"Touch /Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app302194418#302194418#0(0"0(0#0#0"8613068320#303"    cd "/Users/coryw/iOS Projects/UniversalExampleV3"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/coryw/iOS Projects/UniversalExampleV3/build/Debug-iphonesimulator/UniversalExample.app"0#
-
