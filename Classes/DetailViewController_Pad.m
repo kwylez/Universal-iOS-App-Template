@@ -74,6 +74,15 @@
   return YES;
 }
 
+- (void)populateTable {
+  
+  if (popoverController != nil) {
+    [popoverController dismissPopoverAnimated:YES];
+  }  
+  
+  [super populateTable];
+}
+
 #pragma mark -
 #pragma mark SplitView
 - (void)splitViewController:(UISplitViewController*)svc 
