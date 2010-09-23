@@ -10,8 +10,31 @@
 
 @implementation RootViewController
 
+@synthesize tblView;
+
 - (void)dealloc {
+  [tblView release];
   [super dealloc];
+}
+
+- (void)loadView {
+  
+  UIView *mainView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+  
+  self.view = mainView;
+  
+  self.view.autoresizingMask    = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  self.view.autoresizesSubviews = YES;
+  
+  [mainView release];
+  
+  self.tblView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+  
+  self.tblView.delegate         = self;
+  self.tblView.dataSource       = self;  
+  self.tblView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  
+  [self.view addSubview:self.tblView];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -36,10 +59,10 @@
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
   
   if (cell == nil) {
-      cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
   }
 
-  cell.textLabel.text = @"Root";
+    //cell.textLabel.text = @"Root";
   
   cell.textLabel.text = (indexPath.row) == 0 ? @"First Detail" : @"Second Detail";
   
