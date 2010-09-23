@@ -235,6 +235,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,15 +279,13 @@
 								<string>EA6FC42A1201E18500CAD858</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>EA4FF0921201C6AA00C24433</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>2</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,8 +320,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -339,7 +337,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EAE280E312076EDA00A5C5AB</string>
+										<string>EA219C3A124A9CBD0083D7D3</string>
 										<key>history</key>
 										<array>
 											<string>EAD90D6E1201D5BB000CBDE8</string>
@@ -364,7 +362,7 @@
 											<string>EAE280DF12076EDA00A5C5AB</string>
 											<string>EAE280E012076EDA00A5C5AB</string>
 											<string>EAE280E112076EDA00A5C5AB</string>
-											<string>EAE280E212076EDA00A5C5AB</string>
+											<string>EAE280E312076EDA00A5C5AB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -422,9 +420,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>EAE280E412076EDA00A5C5AB</string>
+				<string>EA219C2E124A9C880083D7D3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>EAE280E512076EDA00A5C5AB</string>
+				<string>EA219C2F124A9C880083D7D3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -562,12 +560,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>EAE280EE12076EDA00A5C5AB</string>
-		<string>EAE280EF12076EDA00A5C5AB</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>EA4FF0641201C37100C24433</string>
-		<string>/Users/coryw/iOS Projects/UniversalExampleV4 - Navigation Detail/UniversalExample.xcodeproj</string>
+		<string>/Users/coryw/Desktop/Universal/UniversalExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 100 1920 958 0 0 1920 1058 </string>
@@ -647,7 +641,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>EA4FF0641201C37100C24433</string>
-				<string>EAE280E612076EDA00A5C5AB</string>
+				<string>EA219C30124A9C880083D7D3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
