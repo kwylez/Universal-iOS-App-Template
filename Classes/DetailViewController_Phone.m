@@ -14,7 +14,6 @@
 - (void)viewDidLoad {
 
   CGRect tblFrame;
-
   /**
    *  Hard code values for frames are NOT recommended, but here for breavity sake
    */
@@ -26,8 +25,8 @@
   [super viewDidLoad];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-  return YES;
+- (void) viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:animated];
 }
 
 - (void)dealloc {
