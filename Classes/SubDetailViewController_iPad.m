@@ -12,7 +12,7 @@
 @implementation SubDetailViewController_iPad
 
 - (void)viewDidLoad {
-
+  
   CGRect tblFrame;
 
   /**
@@ -41,6 +41,10 @@
 
 - (void)dealloc {
   [super dealloc];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:animated];
 }
 
 @end
