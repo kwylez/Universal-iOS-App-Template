@@ -24,5 +24,6 @@
 - (int)getBannerHeight:(UIDeviceOrientation)orientation;
 - (int)getBannerHeight;
 - (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation;
+- (void)configureIAdContentSizes;
 
 @end
