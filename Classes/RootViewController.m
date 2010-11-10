@@ -26,8 +26,6 @@
   
   [adBannerView release];
   
-//  adBannerView = nil;
-  
   [tblView release];
 
   tblView = nil;
@@ -121,9 +119,9 @@
 - (int)getBannerHeight:(UIDeviceOrientation)orientation {
   
   if (UIInterfaceOrientationIsLandscape(orientation)) {
-    return 32;
+    return kLandscapeIAdHeight;
   } else {
-    return 50;
+    return kPortraitIAdHeight;
   }
 }
 
@@ -133,90 +131,42 @@
 
 - (void)createAdBannerView {
   
-  TTDPRINT(@"insideCreateBannerView");
+  if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
   
-  Class classAdBannerView = NSClassFromString(@"ADBannerView");
-  
-  if (classAdBannerView != nil) {
+    Class classAdBannerView = NSClassFromString(@"ADBannerView");
     
-    TTDPRINT(@"loaded bannerview class");
-    
-    self.adBannerView = [[[classAdBannerView alloc] initWithFrame:CGRectZero] autorelease];
-    
-    float version = [[[UIDevice currentDevice] systemVersion] floatValue];
-    
-    TTDPRINT(@"version: %f", version);
-    
-    if ((version >= 4.000000) && (version <= 4.100000)) {
-      [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifier320x50, ADBannerContentSizeIdentifier480x32, nil]];
-    } else {
-      [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, ADBannerContentSizeIdentifierLandscape, nil]];
-    }
-
-    if ((version >= 4.000000) && (version <= 4.100000)) {
+    if (classAdBannerView != nil) {
       
-      if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier480x32];
-      } else {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier320x50];            
-      }
-
-    } else {
+      self.adBannerView = [[[classAdBannerView alloc] initWithFrame:CGRectZero] autorelease];
       
-      if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
-      } else {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];            
-      }  
+      [self configureIAdContentSizes];
+      
+      [adBannerView setFrame:CGRectOffset([adBannerView frame], 0, -[self getBannerHeight])];
+      
+      [adBannerView setDelegate:self];
+      
+      [self.view addSubview:adBannerView];        
     }
-    
-    [adBannerView setFrame:CGRectOffset([adBannerView frame], 0, -[self getBannerHeight])];
-    
-    [adBannerView setDelegate:self];
-    
-    [self.view addSubview:adBannerView];        
   }
 }
 
 - (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {
   
-  if (adBannerView != nil) {
+  if (adBannerView != nil && (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)) {
     
-    TTDPRINT(@"adBannerView is not nil");
-    
-    float version = [[[UIDevice currentDevice] systemVersion] floatValue];
-    
-    if ((version >= 4.000000) && (version <= 4.100000)) {
-      
-      if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier480x32];
-      } else {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier320x50];            
-      }
-      
-    } else {
-      
-      if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
-      } else {
-        [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];            
-      }  
-    }
+    [self configureIAdContentSizes];
     
     [UIView beginAnimations:@"fixupViews" context:nil];
     
     if (adBannerViewIsVisible) {
-
-      TTDPRINT(@"banner should be visible");
       
       CGRect adBannerViewFrame = [adBannerView frame];
+      CGRect contentViewFrame  = self.tblView.frame;
       
       adBannerViewFrame.origin.x = 0;
       adBannerViewFrame.origin.y = 0;
       
       [adBannerView setFrame:adBannerViewFrame];
-      
-      CGRect contentViewFrame = self.tblView.frame;
       
       contentViewFrame.origin.y    = [self getBannerHeight:toInterfaceOrientation];
       contentViewFrame.size.height = self.tblView.frame.size.height - [self getBannerHeight:toInterfaceOrientation];
@@ -224,8 +174,6 @@
       self.tblView.frame = contentViewFrame;
       
     } else {
-      
-      NSLog(@"banner should NOT be visible");
       
       CGRect adBannerViewFrame = [adBannerView frame];
       
@@ -246,11 +194,35 @@
   }   
 }
 
+- (void)configureIAdContentSizes {
+  
+  float version = [[[UIDevice currentDevice] systemVersion] floatValue];
+  
+  if ((version >= 4.000000) && (version <= 4.100000)) {
+    
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifier320x50, ADBannerContentSizeIdentifier480x32, nil]];
+    
+    if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
+      [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier480x32];
+    } else {
+      [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier320x50];            
+    }
+    
+  } else {
+    
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, ADBannerContentSizeIdentifierLandscape, nil]];
+    
+    if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
+      [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
+    } else {
+      [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];            
+    }  
+  }
+}
+
 #pragma mark -
 #pragma mark ADBannerViewDelegate
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner {
-
-  TTDPRINT(@"bannerViewDidLoadAd");
   
   if (!adBannerViewIsVisible) {                
     
