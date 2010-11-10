@@ -14,6 +14,8 @@
 #define kIPadDefaultWidth 768
 #define kIPhoneDefaultHeight 480
 #define kIPadDefaultHeight 1024
+#define kLandscapeIAdHeight 32
+#define kPortraitIAdHeight 50
 
 /**
  * Debug macro from Three20 framework.  What would I do without it.
