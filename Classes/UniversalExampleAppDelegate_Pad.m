@@ -39,15 +39,18 @@
   
   rootVC.title = @"Root View Controller";
   
+  UINavigationController *masterNavController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+  
   DetailViewController_Pad *detailVC = [[DetailViewController_Pad alloc] init];
 
   splitViewController = [[UISplitViewController alloc] init];
 
   splitViewController.title           = @"SplitVC";
-  splitViewController.viewControllers = [NSArray arrayWithObjects:rootVC, detailVC, nil];
+  splitViewController.viewControllers = [NSArray arrayWithObjects:masterNavController, detailVC, nil];
   
   [rootVC release];
   [detailVC release];
+  [masterNavController release];
   
   [controllers addObject:splitViewController];
 
