@@ -26,7 +26,7 @@
 
   FirstViewController *first = [[FirstViewController alloc] init];
   
-  first.title = @"First Title";
+  first.title = @"First Tab";
   
   [controllers addObject:first];
   
@@ -36,7 +36,9 @@
    * Add splitview controller
    */
   RootViewController_Pad *rootVC     = [[RootViewController_Pad alloc] initWithNibName:@"RootViewController" bundle:nil];
+  
   rootVC.title = @"Root View Controller";
+  
   DetailViewController_Pad *detailVC = [[DetailViewController_Pad alloc] init];
 
   splitViewController = [[UISplitViewController alloc] init];
@@ -44,8 +46,11 @@
   splitViewController.title           = @"SplitVC";
   splitViewController.viewControllers = [NSArray arrayWithObjects:rootVC, detailVC, nil];
   
+  [rootVC release];
+  [detailVC release];
+  
   [controllers addObject:splitViewController];
-//  
+
   tabBarController.viewControllers = controllers;
   
   [controllers release];
