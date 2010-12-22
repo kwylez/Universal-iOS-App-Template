@@ -200,7 +200,9 @@
   
   if ((version >= 4.000000) && (version <= 4.100000)) {
     
-    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifier320x50, ADBannerContentSizeIdentifier480x32, nil]];
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:
+                                                     ADBannerContentSizeIdentifier320x50, 
+                                                     ADBannerContentSizeIdentifier480x32, nil]];
     
     if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
       [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier480x32];
@@ -210,7 +212,9 @@
     
   } else {
     
-    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, ADBannerContentSizeIdentifierLandscape, nil]];
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:
+                                                     ADBannerContentSizeIdentifierPortrait,
+                                                     ADBannerContentSizeIdentifierLandscape, nil]];
     
     if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
       [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
