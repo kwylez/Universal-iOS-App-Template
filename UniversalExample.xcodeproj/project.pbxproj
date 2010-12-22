@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011FCE5312B9C3D40051A2AF /* UITabBarController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FCE5212B9C3D40051A2AF /* UITabBarController+Autorotate.m */; };
+		011FCE5712B9C4F30051A2AF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FCE5612B9C4F30051A2AF /* FirstViewController.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -30,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011FCE5112B9C3D40051A2AF /* UITabBarController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Autorotate.h"; sourceTree = "<group>"; };
+		011FCE5212B9C3D40051A2AF /* UITabBarController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Autorotate.m"; sourceTree = "<group>"; };
+		011FCE5512B9C4F30051A2AF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		011FCE5612B9C4F30051A2AF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		01AA815112B979B600AF9AB6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* UniversalExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,9 +89,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011FCE4F12B9C32F0051A2AF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				011FCE5112B9C3D40051A2AF /* UITabBarController+Autorotate.h */,
+				011FCE5212B9C3D40051A2AF /* UITabBarController+Autorotate.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				011FCE4F12B9C32F0051A2AF /* Categories */,
+				01AA815112B979B600AF9AB6 /* Constants.h */,
 				EA4FED58120227E8001C3C02 /* Models */,
 				EA6FC42C1201E19600CAD858 /* Shared */,
 				EA6FC42B1201E19000CAD858 /* iPad */,
@@ -200,6 +218,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				EA4FF0701201C3AF00C24433 /* DetailViewController.h */,
 				EA4FF0711201C3AF00C24433 /* DetailViewController.m */,
+				011FCE5512B9C4F30051A2AF /* FirstViewController.h */,
+				011FCE5612B9C4F30051A2AF /* FirstViewController.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -280,6 +300,8 @@
 				EAEE698812074FE90055BE76 /* SubDetailViewController.m in Sources */,
 				EAEE698B1207541C0055BE76 /* SubDetailViewController_iPad.m in Sources */,
 				EAEE698E120754320055BE76 /* SubDetailViewController_iPhone.m in Sources */,
+				011FCE5312B9C3D40051A2AF /* UITabBarController+Autorotate.m in Sources */,
+				011FCE5712B9C4F30051A2AF /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +322,7 @@
 				INFOPLIST_FILE = "UniversalExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -335,7 +357,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
