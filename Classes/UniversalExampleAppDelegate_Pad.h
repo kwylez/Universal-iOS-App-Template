@@ -7,15 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "RootViewController.h"
+#import "FirstViewController.h"
+#import "RootViewController_Pad.h"
+#import "DetailViewController_Pad.h"
+#import "UITabBarController+Autorotate.h"
 
 @interface UniversalExampleAppDelegate_Pad : NSObject {
+
+  UITabBarController *tabBarController;
+  UISplitViewController *splitViewController;
   
   UIWindow *window;
-  UISplitViewController *splitViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UISplitViewController *splitViewController;
+@property (nonatomic, retain) UITabBarController *tabBarController;
+@property (nonatomic, retain) UISplitViewController *splitViewController;
 
 @end
