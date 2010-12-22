@@ -13,14 +13,14 @@
 @implementation UniversalExampleAppDelegate_Phone
 
 @synthesize window;
-@synthesize navigationController;
+@synthesize tabbarController;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-  [window addSubview:navigationController.view];
+  [window addSubview:tabbarController.view];
   [window makeKeyAndVisible];
   
   return YES;
@@ -75,7 +75,7 @@
 
 
 - (void)dealloc {
-	[navigationController release];
+	[tabbarController release];
 	[window release];
 	[super dealloc];
 }
