@@ -7,19 +7,64 @@
   //
 
 #import "UniversalExampleAppDelegate_Pad.h"
-#import "RootViewController.h"
 
 @implementation UniversalExampleAppDelegate_Pad
 
 @synthesize window;
 @synthesize splitViewController;
+@synthesize tabBarController;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
-  [window addSubview:splitViewController.view];
+  tabBarController = [[UITabBarController alloc] init];
+  
+  NSMutableArray *controllers = [[NSMutableArray alloc] init];
+  
+  FirstViewController *first = [[FirstViewController alloc] init];
+  
+  first.title = @"First Tab";
+  
+  [controllers addObject:first];
+  
+  [first release];
+  
+  /**
+   * Add splitview controller
+   */
+  RootViewController_Pad *rootVC     = [[RootViewController_Pad alloc] initWithNibName:@"RootViewController" bundle:nil];
+  
+  rootVC.title = @"Root View Controller";
+  
+  UINavigationController *masterNavController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+  
+  DetailViewController_Pad *detailVC = [[DetailViewController_Pad alloc] init];
+  
+  splitViewController = [[UISplitViewController alloc] init];
+  
+  /**
+   * Remember to set the detail view controller as the delegate!!!!!
+   *
+   * If you don't then your delegate methods WON'T get called, obviously.  You 
+   * will notice it because the topbar menu item WON'T show up.
+   */
+  splitViewController.delegate        = detailVC;
+  splitViewController.title           = @"SplitVC";
+  splitViewController.viewControllers = [NSArray arrayWithObjects:masterNavController, detailVC, nil];
+  
+  [rootVC release];
+  [detailVC release];
+  [masterNavController release];
+  
+  [controllers addObject:splitViewController];
+  
+  tabBarController.viewControllers = controllers;
+  
+  [controllers release];
+  
+  [window addSubview:tabBarController.view];
   [window makeKeyAndVisible];
   
   return YES;
@@ -77,6 +122,7 @@
 - (void)dealloc {
 	[window release];
   [splitViewController release];
+  [tabBarController release];
 	[super dealloc];
 }
 
