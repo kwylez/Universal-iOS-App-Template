@@ -35,6 +35,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   
+  [tableView deselectRowAtIndexPath:indexPath animated:YES];
+  
   SubDetailViewController_iPhone *subDetail = [[SubDetailViewController_iPhone alloc] init];
   
   [self.navigationController pushViewController:subDetail animated:YES];
