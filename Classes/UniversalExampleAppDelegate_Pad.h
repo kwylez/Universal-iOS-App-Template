@@ -13,16 +13,19 @@
 #import "RootViewController_Pad.h"
 #import "DetailViewController_Pad.h"
 
-@interface UniversalExampleAppDelegate_Pad : NSObject {
+@interface UniversalExampleAppDelegate_Pad : NSObject <UITabBarControllerDelegate> {
 
   UITabBarController *tabBarController;
   UISplitViewController *splitViewController;
 
   UIWindow *window;
+  
+  UIImageView* tabBarArrow;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) UITabBarController *tabBarController;
 @property (nonatomic, retain) UISplitViewController *splitViewController;
+@property (nonatomic, retain) UIImageView* tabBarArrow;
 
 @end
