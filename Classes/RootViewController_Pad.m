@@ -15,7 +15,7 @@
 
   [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
   
-  UniversalExampleAppDelegate_Pad *delegate      = [[UIApplication sharedApplication] delegate];
+  UniversalExampleAppDelegate_Pad *delegate      = (UniversalExampleAppDelegate_Pad* )[[UIApplication sharedApplication] delegate];
   DetailViewController_Pad *detailViewController = (DetailViewController_Pad *)[delegate.splitViewController.viewControllers objectAtIndex:1];
 
   Model *model = [[Model alloc] init];
