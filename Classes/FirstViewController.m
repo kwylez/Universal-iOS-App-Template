@@ -13,9 +13,9 @@
 
 - (void)loadView {
 
-  UIView *mainView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+  UIView *mainView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
   
-  mainView.backgroundColor = [UIColor redColor];
+  mainView.backgroundColor = [UIColor whiteColor];
   
   self.view = mainView;
   
