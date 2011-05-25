@@ -8,19 +8,35 @@
 
 #import "UniversalExampleAppDelegate_Pad.h"
 
+@interface UniversalExampleAppDelegate_Pad (PrivateMethods)
+  - (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex;
+  - (void)addTabBarArrow;
+@end
 
 @implementation UniversalExampleAppDelegate_Pad
 
 @synthesize window;
 @synthesize tabBarController;
 @synthesize splitViewController;
+@synthesize tabBarArrow;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
+- (void)dealloc {
+  
+  [tabBarArrow release];
+  [tabBarController release];
+  [splitViewController release];
+	[window release];
+	[super dealloc];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 
   tabBarController = [[UITabBarController alloc] init];
+
+  tabBarController.delegate = self;
 
   NSMutableArray *controllers = [[NSMutableArray alloc] init];
 
@@ -31,6 +47,22 @@
   [controllers addObject:first];
   
   [first release];
+  
+  FirstViewController *second = [[FirstViewController alloc] init];
+  
+  second.title = @"Second Tab";
+  
+  [controllers addObject:second];
+  
+  [second release];
+  
+  FirstViewController *third = [[FirstViewController alloc] init];
+  
+  third.title = @"Third Tab";
+  
+  [controllers addObject:third];
+  
+  [third release];
   
   /**
    * Add splitview controller
@@ -59,6 +91,9 @@
   [controllers release];
   
   [window addSubview:tabBarController.view];
+  
+  [self addTabBarArrow];
+
   [window makeKeyAndVisible];
   
   return YES;
@@ -112,12 +147,47 @@
    */
 }
 
+#pragma mark - Private Methods
 
-- (void)dealloc {
-  [tabBarController release];
-  [splitViewController release];
-	[window release];
-	[super dealloc];
+- (void)addTabBarArrow {
+
+  UIImage *tabBarArrowImage = [UIImage imageNamed:@"TabBarNipple.png"];
+  
+  self.tabBarArrow = [[[UIImageView alloc] initWithImage:tabBarArrowImage] autorelease];
+  /**
+   * To get the vertical location we start at the bottom of the window, go up by 
+   * height of the tab bar, go up again by the height of arrow and then come 
+   * back down 2 pixels so the arrow is slightly on top of the tab bar.
+   */
+  CGFloat verticalLocation = self.window.frame.size.height - tabBarController.tabBar.frame.size.height - tabBarArrowImage.size.height + 2;
+  tabBarArrow.frame = CGRectMake([self horizontalLocationFor:0], 
+                                 verticalLocation, 
+                                 tabBarArrowImage.size.width, 
+                                 tabBarArrowImage.size.height);
+
+  
+  [self.window addSubview:tabBarArrow];
+}
+
+- (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex {
+
+  CGFloat tabMiddle = CGRectGetMidX([[[[[self tabBarController] tabBar] subviews] objectAtIndex:tabIndex] frame]);
+  
+  return tabMiddle;
+}
+
+- (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
+
+  [UIView animateWithDuration:0.2 animations:^ {
+    
+    CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
+    CGRect newFrame   = tabBarArrow.frame;
+    CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
+
+    newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), tabBarTop - tabBarArrow.frame.size.height);
+    tabBarArrow.frame = newFrame;
+
+  }];
 }
 
 
