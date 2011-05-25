@@ -10,17 +10,56 @@
 #import "RootViewController.h"
 
 
+@interface UniversalExampleAppDelegate_Phone ()
+  - (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex;
+  - (void)addTabBarArrow;
+@end
+
 @implementation UniversalExampleAppDelegate_Phone
 
 @synthesize window;
-@synthesize navigationController;
+@synthesize tabBarController;
+@synthesize tabBarArrow;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  
+  tabBarController = [[UITabBarController alloc] init];
+  
+  tabBarController.delegate = self;
+  
+  NSMutableArray *controllers = [[NSMutableArray alloc] init];
+  
+  FirstViewController *first = [[FirstViewController alloc] init];
+  
+  first.title = @"First Tab";
+  
+  [controllers addObject:first];
+  
+  [first release];
+  
+  RootViewController_Phone *rootVC     = [[RootViewController_Phone alloc] initWithNibName:@"RootViewController" bundle:nil];
+  
+  rootVC.title = @"Root View Controller";
+  
+  UINavigationController *masterNavController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+  
+  [rootVC release];
+  
+  [controllers addObject:masterNavController];
+  
+  [masterNavController release];
+  
+  tabBarController.viewControllers = controllers;
+  
+  [controllers release];
 
-  [window addSubview:navigationController.view];
+  [window addSubview:tabBarController.view];
+  
+  [self addTabBarArrow];
+  
   [window makeKeyAndVisible];
   
   return YES;
@@ -75,9 +114,65 @@
 
 
 - (void)dealloc {
-	[navigationController release];
+	[tabBarController release];
+  [tabBarArrow release];
 	[window release];
 	[super dealloc];
+}
+
+#pragma mark - Private Methods
+- (void) addTabBarArrow {
+  
+  UIImage* tabBarArrowImage = [UIImage imageNamed:@"TabBarNipple.png"];
+  
+  self.tabBarArrow = [[[UIImageView alloc] initWithImage:tabBarArrowImage] autorelease];
+  /**
+   * To get the vertical location we start at the bottom of the window, go up by 
+   * height of the tab bar, go up again by the height of arrow and then come 
+   * back down 2 pixels so the arrow is slightly on top of the tab bar.
+   */
+  CGFloat verticalLocation = self.window.frame.size.height - tabBarController.tabBar.frame.size.height - tabBarArrowImage.size.height + 2;
+  tabBarArrow.frame = CGRectMake([self horizontalLocationFor:0], 
+                                 verticalLocation, 
+                                 tabBarArrowImage.size.width, 
+                                 tabBarArrowImage.size.height);
+  
+  NSLog(@"tabBarArrow frame: %@", NSStringFromCGRect(tabBarArrow.frame));
+  
+  [self.window addSubview:tabBarArrow];
+}
+
+- (CGFloat) horizontalLocationFor:(NSUInteger)tabIndex {
+  
+  /**
+   * A single tab item's width is the entire width of the tab bar divided by number of items
+   */
+  CGFloat tabItemWidth = self.window.frame.size.width / tabBarController.tabBar.items.count;
+  NSLog(@"tabItemWidth for item: %f %i", tabItemWidth, tabIndex);
+  /**
+   * A half width is tabItemWidth divided by 2 minus half the width of the arrow
+   */
+  CGFloat halfTabItemWidth = (tabItemWidth / 2.0) - (tabBarArrow.frame.size.width / 2.0);
+  NSLog(@"halfTabItemWidth: %f", halfTabItemWidth);
+  
+  /**
+   * The horizontal location is the index times the width plus a half width
+   */
+  return (tabIndex * tabItemWidth) + halfTabItemWidth;
+}
+
+- (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
+  
+  NSLog(@"%s", __PRETTY_FUNCTION__);
+  
+  [UIView animateWithDuration:0.2 animations:^ {
+    
+    CGRect frame = tabBarArrow.frame;
+    
+    frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
+    
+    tabBarArrow.frame = frame;    
+  }];
 }
 
 
