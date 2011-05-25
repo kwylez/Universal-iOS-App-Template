@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FirstViewController.h"
+#import "RootViewController_Phone.h"
 
-
-@interface UniversalExampleAppDelegate_Phone : NSObject {
+@interface UniversalExampleAppDelegate_Phone : NSObject <UITabBarControllerDelegate> {
   
   UIWindow *window;
-  UINavigationController *navigationController;
+  UITabBarController *tabBarController;
+  UIImageView* tabBarArrow;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, retain) UITabBarController *tabBarController;
+@property (nonatomic, retain) UIImageView* tabBarArrow;
 
 @end
