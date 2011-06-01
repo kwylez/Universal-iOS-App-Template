@@ -339,7 +339,7 @@
 				INFOPLIST_FILE = "UniversalExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -375,7 +375,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -393,7 +393,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Distro;
@@ -410,7 +410,7 @@
 				INFOPLIST_FILE = "UniversalExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
