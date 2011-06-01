@@ -131,7 +131,10 @@
    * height of the tab bar, go up again by the height of arrow and then come 
    * back down 2 pixels so the arrow is slightly on top of the tab bar.
    */
-  CGFloat verticalLocation = self.window.frame.size.height - tabBarController.tabBar.frame.size.height - tabBarArrowImage.size.height + 2;
+  CGFloat verticalLocation = (self.window.frame.size.height - 
+                              tabBarController.tabBar.frame.size.height - 
+                             tabBarArrowImage.size.height) + 2;
+
   tabBarArrow.frame = CGRectMake([self horizontalLocationFor:0], 
                                  verticalLocation, 
                                  tabBarArrowImage.size.width, 
@@ -139,51 +142,27 @@
   
   NSLog(@"tabBarArrow frame: %@", NSStringFromCGRect(tabBarArrow.frame));
   
-  [self.window addSubview:tabBarArrow];
+  [self.tabBarController.view addSubview:tabBarArrow];
 }
 
 - (CGFloat) horizontalLocationFor:(NSUInteger)tabIndex {
   
-  /**
-   * A single tab item's width is the entire width of the tab bar divided by number of items
-   */
-  CGFloat tabItemWidth = self.window.frame.size.width / tabBarController.tabBar.items.count;
-  NSLog(@"tabItemWidth for item: %f %i", tabItemWidth, tabIndex);
-  /**
-   * A half width is tabItemWidth divided by 2 minus half the width of the arrow
-   */
-  CGFloat halfTabItemWidth = (tabItemWidth / 2.0) - (tabBarArrow.frame.size.width / 2.0);
-  NSLog(@"halfTabItemWidth: %f", halfTabItemWidth);
+  CGFloat tabMiddle = CGRectGetMidX([[[[[self tabBarController] tabBar] subviews] objectAtIndex:tabIndex] frame]);
   
-  /**
-   * The horizontal location is the index times the width plus a half width
-   */
-  return (tabIndex * tabItemWidth) + halfTabItemWidth;
+  return tabMiddle;
 }
 
 - (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
   
-#if NS_BLOCKS_AVAILABLE
   [UIView animateWithDuration:0.2 animations:^ {
     
-    CGRect frame = tabBarArrow.frame;
+    CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
+    CGRect newFrame   = tabBarArrow.frame;
+    CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
     
-    frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
-    
-    tabBarArrow.frame = frame;    
+    newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
+    tabBarArrow.frame = newFrame;  
   }];
-#else
-  [UIView beginAnimations:nil context:nil];   
-  [UIView setAnimationDuration:0.2];  
-  CGRect frame = tabBarArrow.frame;
-  
-  frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
-  
-  tabBarArrow.frame = frame; 
-  [UIView commitAnimations];
-#endif
-  
-
 }
 
 
