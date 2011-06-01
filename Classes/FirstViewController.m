@@ -20,16 +20,16 @@
   self.view = mainView;
   
   [mainView release];
+  
+  UILabel *placeHolderLabel = [[UILabel alloc] initWithFrame:self.view.frame];
+
+  placeHolderLabel.text          = @"Place Holder View Controller";
+  placeHolderLabel.textAlignment = UITextAlignmentCenter;
+  
+  [self.view addSubview:placeHolderLabel];
+  
+  [placeHolderLabel release];
 }
-
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-  [super viewDidLoad];
-}
-*/
-
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
   return YES;
