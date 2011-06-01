@@ -163,8 +163,7 @@
 
 - (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
   
-  NSLog(@"%s", __PRETTY_FUNCTION__);
-  
+#if NS_BLOCKS_AVAILABLE
   [UIView animateWithDuration:0.2 animations:^ {
     
     CGRect frame = tabBarArrow.frame;
@@ -173,6 +172,18 @@
     
     tabBarArrow.frame = frame;    
   }];
+#else
+  [UIView beginAnimations:nil context:nil];   
+  [UIView setAnimationDuration:0.2];  
+  CGRect frame = tabBarArrow.frame;
+  
+  frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
+  
+  tabBarArrow.frame = frame; 
+  [UIView commitAnimations];
+#endif
+  
+
 }
 
 
