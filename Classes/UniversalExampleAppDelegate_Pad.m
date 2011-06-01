@@ -179,8 +179,21 @@
 
 - (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
   
-#if NS_BLOCKS_AVAILABLE
-  [UIView animateWithDuration:0.2 animations:^ {
+  if ([[UIView class] respondsToSelector:@selector(animateWithDuration:animations:)]){
+    
+    [UIView animateWithDuration:0.2 animations:^ {
+      
+      CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
+      CGRect newFrame   = tabBarArrow.frame;
+      CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
+      
+      newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
+      tabBarArrow.frame = newFrame;
+    }];
+
+  } else {
+    [UIView beginAnimations:nil context:nil];   
+    [UIView setAnimationDuration:0.2];  
     
     CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
     CGRect newFrame   = tabBarArrow.frame;
@@ -188,18 +201,9 @@
     
     newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
     tabBarArrow.frame = newFrame;
-    
-  }];
-#else
-  [UIView beginAnimations:nil context:nil];   
-  [UIView setAnimationDuration:0.2];  
-  CGRect frame = tabBarArrow.frame;
-  
-  frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
-  
-  tabBarArrow.frame = frame; 
-  [UIView commitAnimations];
-#endif
+    [UIView commitAnimations];
+  }
+
 }
 
 @end
