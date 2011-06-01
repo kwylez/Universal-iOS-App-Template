@@ -11,7 +11,6 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "UITabBarController+Autorotate.h"
 #import "RootViewController.h"
 #import "FirstViewController.h"
 #import "RootViewController_Pad.h"
