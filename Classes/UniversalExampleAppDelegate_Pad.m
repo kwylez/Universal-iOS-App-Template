@@ -8,7 +8,7 @@
 
 #import "UniversalExampleAppDelegate_Pad.h"
 
-@interface UniversalExampleAppDelegate_Pad (PrivateMethods)
+@interface UniversalExampleAppDelegate_Pad ()
   - (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex;
   - (void)addTabBarArrow;
 @end
@@ -154,6 +154,7 @@
   UIImage *tabBarArrowImage = [UIImage imageNamed:@"TabBarNipple.png"];
   
   self.tabBarArrow = [[[UIImageView alloc] initWithImage:tabBarArrowImage] autorelease];
+
   /**
    * To get the vertical location we start at the bottom of the window, go up by 
    * height of the tab bar, go up again by the height of arrow and then come 
@@ -166,7 +167,7 @@
                                  tabBarArrowImage.size.height);
 
   
-  [self.window addSubview:tabBarArrow];
+  [self.tabBarController.view addSubview:tabBarArrow];
 }
 
 - (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex {
@@ -177,19 +178,29 @@
 }
 
 - (void)tabBarController:(UITabBarController *)theTabBarController didSelectViewController:(UIViewController *)viewController {
-
+  
+#if NS_BLOCKS_AVAILABLE
   [UIView animateWithDuration:0.2 animations:^ {
     
     CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
     CGRect newFrame   = tabBarArrow.frame;
     CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
-
-    newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), tabBarTop - tabBarArrow.frame.size.height);
+    
+    newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
     tabBarArrow.frame = newFrame;
-
+    
   }];
+#else
+  [UIView beginAnimations:nil context:nil];   
+  [UIView setAnimationDuration:0.2];  
+  CGRect frame = tabBarArrow.frame;
+  
+  frame.origin.x = [self horizontalLocationFor:tabBarController.selectedIndex];
+  
+  tabBarArrow.frame = frame; 
+  [UIView commitAnimations];
+#endif
 }
-
 
 @end
 
