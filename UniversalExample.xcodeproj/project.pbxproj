@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0162AE941396824200D18C8C /* UITabBarController+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0162AE931396824200D18C8C /* UITabBarController+CWAdditions.m */; };
+		01FE923A138B1BAB0080394C /* TabBarNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE9238138B1BAB0080394C /* TabBarNipple.png */; };
+		01FE923B138B1BAB0080394C /* TabBarNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE9239138B1BAB0080394C /* TabBarNipple@2x.png */; };
+		01FE923E138B1C010080394C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FE923D138B1C010080394C /* FirstViewController.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -29,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0162AE921396824200D18C8C /* UITabBarController+CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+CWAdditions.h"; sourceTree = "<group>"; };
+		0162AE931396824200D18C8C /* UITabBarController+CWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+CWAdditions.m"; sourceTree = "<group>"; };
+		0162AE951396829300D18C8C /* CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAdditions.h; sourceTree = "<group>"; };
+		01FE9238138B1BAB0080394C /* TabBarNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarNipple.png; sourceTree = "<group>"; };
+		01FE9239138B1BAB0080394C /* TabBarNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarNipple@2x.png"; sourceTree = "<group>"; };
+		01FE923C138B1C010080394C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		01FE923D138B1C010080394C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* UniversalExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -79,9 +90,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0162AE911396822400D18C8C /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				0162AE921396824200D18C8C /* UITabBarController+CWAdditions.h */,
+				0162AE931396824200D18C8C /* UITabBarController+CWAdditions.m */,
+				0162AE951396829300D18C8C /* CWAdditions.h */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		017BE59A138CADB500B7FB78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		01FE922F138B1B310080394C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01FE9238138B1BAB0080394C /* TabBarNipple.png */,
+				01FE9239138B1BAB0080394C /* TabBarNipple@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0162AE911396822400D18C8C /* Additions */,
+				017BE59A138CADB500B7FB78 /* Views */,
 				EA4FED58120227E8001C3C02 /* Models */,
 				EA6FC42C1201E19600CAD858 /* Shared */,
 				EA6FC42B1201E19000CAD858 /* iPad */,
@@ -123,6 +162,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01FE922F138B1B310080394C /* Images */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* UniversalExample-Info.plist */,
@@ -190,6 +230,8 @@
 		EA6FC42C1201E19600CAD858 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				01FE923C138B1C010080394C /* FirstViewController.h */,
+				01FE923D138B1C010080394C /* FirstViewController.m */,
 				EAEE698612074FE90055BE76 /* SubDetailViewController.h */,
 				EAEE698712074FE90055BE76 /* SubDetailViewController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -227,6 +269,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UniversalExample" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -252,6 +295,8 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				EAD90D551201D346000CBDE8 /* MainWindow-iPad.xib in Resources */,
+				01FE923A138B1BAB0080394C /* TabBarNipple.png in Resources */,
+				01FE923B138B1BAB0080394C /* TabBarNipple@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +320,8 @@
 				EAEE698812074FE90055BE76 /* SubDetailViewController.m in Sources */,
 				EAEE698B1207541C0055BE76 /* SubDetailViewController_iPad.m in Sources */,
 				EAEE698E120754320055BE76 /* SubDetailViewController_iPhone.m in Sources */,
+				01FE923E138B1C010080394C /* FirstViewController.m in Sources */,
+				0162AE941396824200D18C8C /* UITabBarController+CWAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +342,7 @@
 				INFOPLIST_FILE = "UniversalExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,7 +359,7 @@
 				INFOPLIST_FILE = "UniversalExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -327,8 +374,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -343,45 +392,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		EAEE6984120749F10055BE76 /* Distro */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Distro;
-		};
-		EAEE6985120749F10055BE76 /* Distro */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = UniversalExample_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = "UniversalExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
-				PRODUCT_NAME = UniversalExample;
-				SDKROOT = iphoneos4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Distro;
 		};
 /* End XCBuildConfiguration section */
 
@@ -391,7 +407,6 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
-				EAEE6985120749F10055BE76 /* Distro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -401,7 +416,6 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
-				EAEE6984120749F10055BE76 /* Distro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
