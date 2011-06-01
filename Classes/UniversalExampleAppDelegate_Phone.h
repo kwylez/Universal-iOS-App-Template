@@ -10,6 +10,10 @@
 #import "FirstViewController.h"
 #import "RootViewController_Phone.h"
 
+/**
+ * Slider animation and images from https://github.com/boctor/idev-recipes/tree/master/TabBarAnimation
+ */
+
 @interface UniversalExampleAppDelegate_Phone : NSObject <UITabBarControllerDelegate> {
   
   UIWindow *window;
