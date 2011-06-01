@@ -6,6 +6,10 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+/**
+ * Slider animation and images from https://github.com/boctor/idev-recipes/tree/master/TabBarAnimation
+ */
+
 #import <Foundation/Foundation.h>
 #import "UITabBarController+Autorotate.h"
 #import "RootViewController.h"
