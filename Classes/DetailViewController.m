@@ -37,7 +37,7 @@
   
   UIView *mainParentView = [[UIView alloc] initWithFrame:CGRectZero];
   
-  self.tblView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+  self.tblView = [[[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain] autorelease];
   
   self.tblView.dataSource = self;
   self.tblView.delegate   = self;
@@ -56,7 +56,7 @@
 
   [self populateTable];
   
-  [self fixupAdView:[UIDevice currentDevice].orientation];
+  [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
   
   [super viewDidLoad];
 }
@@ -140,7 +140,7 @@
 #pragma mark -
 #pragma mark iAd Custom Methods
 
-- (int)getBannerHeight:(UIDeviceOrientation)orientation {
+- (int)getBannerHeight:(UIInterfaceOrientation)orientation {
   
   if (UIInterfaceOrientationIsLandscape(orientation)) {
     return kLandscapeIAdHeight;
@@ -150,7 +150,7 @@
 }
 
 - (int)getBannerHeight {
-  return [self getBannerHeight:[UIDevice currentDevice].orientation];
+  return [self getBannerHeight:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 
 - (void)createAdBannerView {
@@ -251,7 +251,7 @@
     
     adBannerViewIsVisible = YES;
     
-    [self fixupAdView:[UIDevice currentDevice].orientation];
+    [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
   }
 }
 
@@ -263,7 +263,7 @@
     
     adBannerViewIsVisible = NO;
     
-    [self fixupAdView:[UIDevice currentDevice].orientation];
+    [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
   }
 }
 
