@@ -23,10 +23,10 @@
   self.tblView.frame            = tblFrame;
   self.tblView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   
-  self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Dismiss" 
+  self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Dismiss" 
                                                                             style:UIBarButtonItemStyleBordered              
                                                                            target:self 
-                                                                           action:@selector(dismissModalViewControllerAnimated:)];
+                                                                           action:@selector(dismissModalViewControllerAnimated:)] autorelease];
 
   [super viewDidLoad];
 }
