@@ -44,7 +44,7 @@
   
   [mainView release];
   
-  self.tblView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+  self.tblView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
   
   self.tblView.delegate         = self;
   self.tblView.dataSource       = self;  
@@ -55,7 +55,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  [self fixupAdView:[UIDevice currentDevice].orientation];
+  [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -116,7 +116,7 @@
 #pragma mark -
 #pragma mark iAd Custom Methods
 
-- (int)getBannerHeight:(UIDeviceOrientation)orientation {
+- (int)getBannerHeight:(UIInterfaceOrientation)orientation {
   
   if (UIInterfaceOrientationIsLandscape(orientation)) {
     return kLandscapeIAdHeight;
@@ -126,7 +126,7 @@
 }
 
 - (int)getBannerHeight {
-  return [self getBannerHeight:[UIDevice currentDevice].orientation];
+  return [self getBannerHeight:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 
 - (void)createAdBannerView {
@@ -200,7 +200,9 @@
   
   if ((version >= 4.000000) && (version <= 4.100000)) {
     
-    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifier320x50, ADBannerContentSizeIdentifier480x32, nil]];
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifier320x50, 
+                                                                          ADBannerContentSizeIdentifier480x32, 
+                                                                          nil]];
     
     if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
       [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifier480x32];
@@ -210,7 +212,9 @@
     
   } else {
     
-    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, ADBannerContentSizeIdentifierLandscape, nil]];
+    [adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, 
+                                                                          ADBannerContentSizeIdentifierLandscape, 
+                                                                          nil]];
     
     if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
       [adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
@@ -220,15 +224,15 @@
   }
 }
 
-#pragma mark -
-#pragma mark ADBannerViewDelegate
+#pragma mark - ADBannerViewDelegate
+
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner {
   
   if (!adBannerViewIsVisible) {                
     
     adBannerViewIsVisible = YES;
     
-    [self fixupAdView:[UIDevice currentDevice].orientation];
+    [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
   }
 }
 
@@ -240,7 +244,7 @@
     
     adBannerViewIsVisible = NO;
     
-    [self fixupAdView:[UIDevice currentDevice].orientation];
+    [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
   }
 }
 
