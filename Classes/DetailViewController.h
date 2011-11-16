@@ -24,7 +24,7 @@
 
 - (void)populateTable;
 - (void)createAdBannerView;
-- (int)getBannerHeight:(UIDeviceOrientation)orientation;
+- (int)getBannerHeight:(UIInterfaceOrientation)orientation;
 - (int)getBannerHeight;
 - (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation;
 - (void)configureIAdContentSizes;
