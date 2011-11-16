@@ -34,7 +34,7 @@
   /**
    * Add splitview controller
    */
-  RootViewController_Pad *rootVC     = [[RootViewController_Pad alloc] initWithNibName:@"RootViewController" bundle:nil];
+  RootViewController_Pad *rootVC = [[RootViewController_Pad alloc] initWithNibName:@"RootViewController" bundle:nil];
   
   rootVC.title = @"Root View Controller";
   
