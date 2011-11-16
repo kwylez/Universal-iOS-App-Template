@@ -44,7 +44,7 @@
   
   [mainView release];
   
-  self.tblView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+  self.tblView = [[[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain] autorelease];
   
   self.tblView.delegate         = self;
   self.tblView.dataSource       = self;  
