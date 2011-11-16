@@ -33,7 +33,7 @@
   [super viewDidLoad];
 
   self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
-  self.toolbar                     = [[UIToolbar alloc] initWithFrame:CGRectZero];
+  self.toolbar                     = [[[UIToolbar alloc] initWithFrame:CGRectZero] autorelease];
   
   CGRect tbFrame;
   CGRect tblFrame;
