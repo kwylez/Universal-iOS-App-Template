@@ -26,7 +26,7 @@
   
   UIView *mainParentView = [[UIView alloc] initWithFrame:CGRectZero];
   
-  self.tblView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+  self.tblView = [[[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain] autorelease];
   
   self.tblView.dataSource = self;
   self.tblView.delegate   = self;
