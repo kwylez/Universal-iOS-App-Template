@@ -161,17 +161,25 @@
    * back down 2 pixels so the arrow is slightly on top of the tab bar.
    */
   CGFloat verticalLocation = self.window.frame.size.height - tabBarController.tabBar.frame.size.height - tabBarArrowImage.size.height + 2;
-  tabBarArrow.frame = CGRectMake([self horizontalLocationFor:0], 
-                                 verticalLocation, 
-                                 tabBarArrowImage.size.width, 
-                                 tabBarArrowImage.size.height);
+ 
+  self.tabBarArrow.frame   = CGRectMake([self horizontalLocationFor:0], 
+                                        verticalLocation, 
+                                        tabBarArrowImage.size.width, 
+                                        tabBarArrowImage.size.height);
 
   
   [self.tabBarController.view addSubview:tabBarArrow];
 }
 
 - (CGFloat)horizontalLocationFor:(NSUInteger)tabIndex {
-
+  
+  /**
+   * The first subview in a tabbarcontroller isn't a tabbaritem, but a background
+   * view so we need to increase subview index by 1
+   */
+  if ((SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"5.0")))
+    tabIndex++;
+  
   CGFloat tabMiddle = CGRectGetMidX([[[[[self tabBarController] tabBar] subviews] objectAtIndex:tabIndex] frame]);
   
   return tabMiddle;
@@ -187,23 +195,11 @@
       CGRect newFrame   = tabBarArrow.frame;
       CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
       
-      newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
+      newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width / 2), (tabBarTop - tabBarArrow.frame.size.height + 2));
       tabBarArrow.frame = newFrame;
     }];
 
-  } else {
-    [UIView beginAnimations:nil context:nil];   
-    [UIView setAnimationDuration:0.2];  
-    
-    CGFloat xCoord    = [self horizontalLocationFor:tabBarController.selectedIndex];
-    CGRect newFrame   = tabBarArrow.frame;
-    CGFloat tabBarTop = [[[self tabBarController] tabBar] frame].origin.y;
-    
-    newFrame.origin   = CGPointMake(xCoord - (tabBarArrow.frame.size.width/2), (tabBarTop - tabBarArrow.frame.size.height + 2));
-    tabBarArrow.frame = newFrame;
-    [UIView commitAnimations];
   }
-
 }
 
 @end
