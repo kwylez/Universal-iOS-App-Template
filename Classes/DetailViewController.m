@@ -35,12 +35,13 @@
 
 - (void)loadView {
   
-  UIView *mainParentView = [[UIView alloc] initWithFrame:CGRectZero];
+  UIView *mainParentView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
   
-  self.tblView = [[[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain] autorelease];
+  self.tblView = [[[UITableView alloc] initWithFrame:mainParentView.frame style:UITableViewStylePlain] autorelease];
   
   self.tblView.dataSource = self;
   self.tblView.delegate   = self;
+  self.tblView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
   
   self.view = mainParentView;
 
@@ -48,17 +49,17 @@
   
   [self.view addSubview:self.tblView];
 
-  self.view.autoresizingMask    = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+  self.view.autoresizingMask    = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
   self.view.autoresizesSubviews = YES;
 }
 
 - (void)viewDidLoad {
 
+  [super viewDidLoad];
+  
   [self populateTable];
   
   [self fixupAdView:[[UIApplication sharedApplication] statusBarOrientation]];
-  
-  [super viewDidLoad];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -159,63 +160,22 @@
   
   if (classAdBannerView != nil) {
     
-    self.adBannerView = [[[classAdBannerView alloc] initWithFrame:CGRectZero] autorelease];
+    if (!self.adBannerViewIsVisible) {
+    
+      self.adBannerView = [[[classAdBannerView alloc] initWithFrame:CGRectZero] autorelease];
 
-    [self configureIAdContentSizes];
-    
-    [adBannerView setFrame:CGRectOffset([adBannerView frame], 0, -[self getBannerHeight])];
-    
-    [adBannerView setDelegate:self];
-    
-    [self.view addSubview:adBannerView];        
+      [self configureIAdContentSizes];
+      
+      [adBannerView setFrame:CGRectOffset([adBannerView frame], 0, -([self getBannerHeight] + 20))];
+      
+      [adBannerView setDelegate:self];
+      
+      [self.view addSubview:adBannerView];
+    }
   }
 }
 
-- (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {
-  
-  if (adBannerView != nil) {
-    
-    [self configureIAdContentSizes];
-    
-    [UIView beginAnimations:@"fixupViews" context:nil];
-    
-    if (adBannerViewIsVisible) {
-      
-      TTDPRINT(@"banner should be visible");
-      
-      CGRect adBannerViewFrame = [adBannerView frame];
-      CGRect contentViewFrame  = self.tblView.frame;
-      
-      adBannerViewFrame.origin.x = 0;
-      adBannerViewFrame.origin.y = 0;
-      
-      [adBannerView setFrame:adBannerViewFrame];
-      
-      contentViewFrame.origin.y    = [self getBannerHeight:toInterfaceOrientation];
-      contentViewFrame.size.height = self.tblView.frame.size.height - [self getBannerHeight:toInterfaceOrientation];
-      
-      self.tblView.frame = contentViewFrame;
-      
-    } else {
-      
-      CGRect adBannerViewFrame = [adBannerView frame];
-      
-      adBannerViewFrame.origin.x = 0;
-      adBannerViewFrame.origin.y = -[self getBannerHeight:toInterfaceOrientation];
-      
-      [adBannerView setFrame:adBannerViewFrame];
-      
-      CGRect contentViewFrame = self.tblView.frame;
-      
-      contentViewFrame.origin.y    = 0;
-      contentViewFrame.size.height = self.tblView.frame.size.height;
-      
-      self.tblView.frame = contentViewFrame;            
-    }
-    
-    [UIView commitAnimations];
-  }   
-}
+- (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {}
 
 - (void)configureIAdContentSizes {
   
