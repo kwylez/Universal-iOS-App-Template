@@ -150,49 +150,7 @@
   }
 }
 
-- (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {
-  
-  if (adBannerView != nil && (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)) {
-    
-    [self configureIAdContentSizes];
-    
-    [UIView beginAnimations:@"fixupViews" context:nil];
-    
-    if (adBannerViewIsVisible) {
-      
-      CGRect adBannerViewFrame = [adBannerView frame];
-      CGRect contentViewFrame  = self.tblView.frame;
-      
-      adBannerViewFrame.origin.x = 0;
-      adBannerViewFrame.origin.y = 0;
-      
-      [adBannerView setFrame:adBannerViewFrame];
-      
-      contentViewFrame.origin.y    = [self getBannerHeight:toInterfaceOrientation];
-      contentViewFrame.size.height = self.tblView.frame.size.height - [self getBannerHeight:toInterfaceOrientation];
-      
-      self.tblView.frame = contentViewFrame;
-      
-    } else {
-      
-      CGRect adBannerViewFrame = [adBannerView frame];
-      
-      adBannerViewFrame.origin.x = 0;
-      adBannerViewFrame.origin.y = -[self getBannerHeight:toInterfaceOrientation];
-      
-      [adBannerView setFrame:adBannerViewFrame];
-      
-      CGRect contentViewFrame = self.tblView.frame;
-      
-      contentViewFrame.origin.y    = 0;
-      contentViewFrame.size.height = self.tblView.frame.size.height;
-      
-      self.tblView.frame = contentViewFrame;            
-    }
-    
-    [UIView commitAnimations];
-  }   
-}
+- (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {}
 
 - (void)configureIAdContentSizes {
   
