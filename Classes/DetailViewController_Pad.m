@@ -71,10 +71,7 @@
   [nav release];
 }
 
-- (void)viewDidUnload {
-  self.toolbar = nil;
-  self.tblView = nil;
-}
+- (void)viewDidUnload {}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
   return YES;
@@ -118,18 +115,28 @@
 
 - (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {
   
+  [super fixupAdView:toInterfaceOrientation];
+  
+  CGFloat toolbarHeight = self.toolbar.frame.size.height;
+ 
+  BOOL isPortrait = UIDeviceOrientationIsPortrait(toInterfaceOrientation);
+  
+  CGFloat minimumContentViewHeightForLandscape = 768 - toolbarHeight;
+  CGFloat minimumContentViewHeightForPortrait  = 1024 - toolbarHeight;
+  
+  CGFloat minimumContentViewHeight = isPortrait ? minimumContentViewHeightForPortrait : minimumContentViewHeightForLandscape;
+  
   if (adBannerView != nil) {
     
     [super configureIAdContentSizes];
     
     [UIView beginAnimations:@"fixupViews" context:nil];
     
-    CGFloat toolbarHeight = self.toolbar.frame.size.height;
-    
     if (adBannerViewIsVisible) {
       
-      CGRect adBannerViewFrame = [adBannerView frame];
-      CGRect contentViewFrame  = self.tblView.frame;
+      CGRect adBannerViewFrame          = [adBannerView frame];
+      CGRect contentViewFrame           = self.tblView.frame;
+      CGFloat adjustedContentViewHeight = (self.tblView.frame.size.height - [self getBannerHeight]);
       
       adBannerViewFrame.origin.x = 0;
       adBannerViewFrame.origin.y = 0 + toolbarHeight;
@@ -137,15 +144,16 @@
       [adBannerView setFrame:adBannerViewFrame];
       
       contentViewFrame.origin.y    = adBannerViewFrame.origin.y + 5 + [self getBannerHeight];
-      contentViewFrame.size.height = self.tblView.frame.size.height - [self getBannerHeight];
+      contentViewFrame.size.height = adjustedContentViewHeight < minimumContentViewHeight ? minimumContentViewHeight - [self getBannerHeight] : adjustedContentViewHeight;
       
       self.tblView.frame = contentViewFrame;
-      
+
     } else {
       
       CGRect adBannerViewFrame = [adBannerView frame];
       
       adBannerViewFrame.origin.x = 0;
+
       adBannerViewFrame.origin.y = -([self getBannerHeight:toInterfaceOrientation] + toolbarHeight);
       
       [adBannerView setFrame:adBannerViewFrame];
