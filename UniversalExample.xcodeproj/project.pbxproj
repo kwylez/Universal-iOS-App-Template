@@ -21,8 +21,8 @@
 		018A8FB71741C92C00720C4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 018A8FB61741C92C00720C4B /* Default-568h@2x.png */; };
 		018A8FBA1741C92C00720C4B /* CWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FB91741C92C00720C4B /* CWMasterViewController.m */; };
 		018A8FBD1741C92C00720C4B /* CWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FBC1741C92C00720C4B /* CWDetailViewController.m */; };
-		018A8FD71741CB3500720C4B /* CWIPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FD61741CB3500720C4B /* CWIPhoneAppDelegate.m */; };
-		018A8FDA1741CB4C00720C4B /* CWIPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FD91741CB4C00720C4B /* CWIPadAppDelegate.m */; };
+		018A8FD71741CB3500720C4B /* CWAppDelegate_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FD61741CB3500720C4B /* CWAppDelegate_IPhone.m */; };
+		018A8FDA1741CB4C00720C4B /* CWAppDelegate_IPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FD91741CB4C00720C4B /* CWAppDelegate_IPad.m */; };
 		018A8FDF1741D1E600720C4B /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FDE1741D1E600720C4B /* Model.m */; };
 		018A8FE51741D43A00720C4B /* CWMasterViewController_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FE41741D43A00720C4B /* CWMasterViewController_IPhone.m */; };
 		018A8FE81741D44F00720C4B /* CWMasterViewController_IPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A8FE71741D44F00720C4B /* CWMasterViewController_IPad.m */; };
@@ -55,10 +55,10 @@
 		018A8FBB1741C92C00720C4B /* CWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWDetailViewController.h; sourceTree = "<group>"; };
 		018A8FBC1741C92C00720C4B /* CWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWDetailViewController.m; sourceTree = "<group>"; };
 		018A8FD01741C96E00720C4B /* CWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMacros.h; sourceTree = "<group>"; };
-		018A8FD51741CB3500720C4B /* CWIPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWIPhoneAppDelegate.h; sourceTree = "<group>"; };
-		018A8FD61741CB3500720C4B /* CWIPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWIPhoneAppDelegate.m; sourceTree = "<group>"; };
-		018A8FD81741CB4C00720C4B /* CWIPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWIPadAppDelegate.h; sourceTree = "<group>"; };
-		018A8FD91741CB4C00720C4B /* CWIPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWIPadAppDelegate.m; sourceTree = "<group>"; };
+		018A8FD51741CB3500720C4B /* CWAppDelegate_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate_IPhone.h; sourceTree = "<group>"; };
+		018A8FD61741CB3500720C4B /* CWAppDelegate_IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate_IPhone.m; sourceTree = "<group>"; };
+		018A8FD81741CB4C00720C4B /* CWAppDelegate_IPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate_IPad.h; sourceTree = "<group>"; };
+		018A8FD91741CB4C00720C4B /* CWAppDelegate_IPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate_IPad.m; sourceTree = "<group>"; };
 		018A8FDD1741D1E600720C4B /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		018A8FDE1741D1E600720C4B /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		018A8FE31741D43A00720C4B /* CWMasterViewController_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMasterViewController_IPhone.h; sourceTree = "<group>"; };
@@ -143,10 +143,10 @@
 			children = (
 				018A8FAF1741C92C00720C4B /* CWAppDelegate.h */,
 				018A8FB01741C92C00720C4B /* CWAppDelegate.m */,
-				018A8FD51741CB3500720C4B /* CWIPhoneAppDelegate.h */,
-				018A8FD61741CB3500720C4B /* CWIPhoneAppDelegate.m */,
-				018A8FD81741CB4C00720C4B /* CWIPadAppDelegate.h */,
-				018A8FD91741CB4C00720C4B /* CWIPadAppDelegate.m */,
+				018A8FD51741CB3500720C4B /* CWAppDelegate_IPhone.h */,
+				018A8FD61741CB3500720C4B /* CWAppDelegate_IPhone.m */,
+				018A8FD81741CB4C00720C4B /* CWAppDelegate_IPad.h */,
+				018A8FD91741CB4C00720C4B /* CWAppDelegate_IPad.m */,
 			);
 			name = AppDelegates;
 			sourceTree = "<group>";
@@ -279,8 +279,8 @@
 				018A8FB11741C92C00720C4B /* CWAppDelegate.m in Sources */,
 				018A8FBA1741C92C00720C4B /* CWMasterViewController.m in Sources */,
 				018A8FBD1741C92C00720C4B /* CWDetailViewController.m in Sources */,
-				018A8FD71741CB3500720C4B /* CWIPhoneAppDelegate.m in Sources */,
-				018A8FDA1741CB4C00720C4B /* CWIPadAppDelegate.m in Sources */,
+				018A8FD71741CB3500720C4B /* CWAppDelegate_IPhone.m in Sources */,
+				018A8FDA1741CB4C00720C4B /* CWAppDelegate_IPad.m in Sources */,
 				018A8FDF1741D1E600720C4B /* Model.m in Sources */,
 				018A8FE51741D43A00720C4B /* CWMasterViewController_IPhone.m in Sources */,
 				018A8FE81741D44F00720C4B /* CWMasterViewController_IPad.m in Sources */,

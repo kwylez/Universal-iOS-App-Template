@@ -10,14 +10,14 @@
 
 #import "CWMacros.h"
 #import "CWAppDelegate.h"
-#import "CWIPhoneAppDelegate.h"
-#import "CWIPadAppDelegate.h"
+#import "CWAppDelegate_IPhone.h"
+#import "CWAppDelegate_IPad.h"
 
 int main(int argc, char *argv[])
 {
   @autoreleasepool {
     
-    Class appDelegateClass = IS_IPAD() ? [CWIPadAppDelegate class] : [CWIPhoneAppDelegate class];
+    Class appDelegateClass = IS_IPAD() ? [CWAppDelegate_IPad class] : [CWAppDelegate_IPhone class];
     
     return UIApplicationMain(argc, argv, nil, NSStringFromClass(appDelegateClass));
   }

@@ -1,5 +1,5 @@
 //
-//  CWIPhoneAppDelegate.h
+//  CWIPadAppDelegate.h
 //  UniversalExample
 //
 //  Created by Cory D. Wiles on 5/13/13.
@@ -8,6 +8,6 @@
 
 #import "CWAppDelegate.h"
 
-@interface CWIPhoneAppDelegate : CWAppDelegate
+@interface CWAppDelegate_IPad : CWAppDelegate
 
 @end

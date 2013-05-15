@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Cory D. Wiles. All rights reserved.
 //
 
-#import "CWIPhoneAppDelegate.h"
+#import "CWAppDelegate_IPhone.h"
 #import "CWMasterViewController_IPhone.h"
 
-@implementation CWIPhoneAppDelegate
+@implementation CWAppDelegate_IPhone
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   

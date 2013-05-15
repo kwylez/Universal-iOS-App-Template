@@ -8,7 +8,7 @@
 
 #import "CWMasterViewController_IPad.h"
 #import "CWDetailViewController_IPad.h"
-#import "CWIPadAppDelegate.h"
+#import "CWAppDelegate_IPad.h"
 
 @interface CWMasterViewController_IPad ()
 

@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Cory D. Wiles. All rights reserved.
 //
 
-#import "CWIPadAppDelegate.h"
+#import "CWAppDelegate_IPad.h"
 #import "CWMasterViewController_IPad.h"
 #import "CWDetailViewController_IPad.h"
 
-@implementation CWIPadAppDelegate
+@implementation CWAppDelegate_IPad
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
